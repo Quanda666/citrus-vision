@@ -51,7 +51,27 @@ CREATE TABLE IF NOT EXISTS product_sample (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='农产品样本表';
 
 -- ========================================
--- 表3：检测任务表（detection_task）
+-- 表3：模型信息表（model_info）
+-- ========================================
+CREATE TABLE IF NOT EXISTS model_info (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '模型ID',
+  version VARCHAR(50) NOT NULL UNIQUE COMMENT '版本号',
+  weight_path VARCHAR(255) NOT NULL COMMENT '权重文件路径',
+  algorithm VARCHAR(100) COMMENT '算法名称（YOLOv8n/YOLOv8s等）',
+  map50 DECIMAL(5, 4) COMMENT 'mAP@0.5 指标',
+  precision_val DECIMAL(5, 4) COMMENT 'Precision',
+  recall_val DECIMAL(5, 4) COMMENT 'Recall',
+  description TEXT COMMENT '模型描述',
+  is_active TINYINT NOT NULL DEFAULT 0 COMMENT '是否当前激活',
+  trained_at DATETIME COMMENT '训练时间',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  INDEX idx_version (version),
+  INDEX idx_active (is_active)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='模型信息表';
+
+-- ========================================
+-- 表4：检测任务表（detection_task）
 -- ========================================
 CREATE TABLE IF NOT EXISTS detection_task (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '任务ID',
@@ -74,7 +94,7 @@ CREATE TABLE IF NOT EXISTS detection_task (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='检测任务表';
 
 -- ========================================
--- 表4：检测结果表（detection_result）
+-- 表5：检测结果表（detection_result）
 -- ========================================
 CREATE TABLE IF NOT EXISTS detection_result (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '结果ID',
@@ -101,7 +121,7 @@ CREATE TABLE IF NOT EXISTS detection_result (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='检测结果表';
 
 -- ========================================
--- 表5：缺陷标签表（defect_label）
+-- 表6：缺陷标签表（defect_label）
 -- ========================================
 CREATE TABLE IF NOT EXISTS defect_label (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '标签ID',
@@ -120,7 +140,7 @@ CREATE TABLE IF NOT EXISTS defect_label (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='缺陷标签表';
 
 -- ========================================
--- 表6：分级标准表（grade_standard）
+-- 表7：分级标准表（grade_standard）
 -- ========================================
 CREATE TABLE IF NOT EXISTS grade_standard (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '标准ID',
@@ -138,7 +158,7 @@ CREATE TABLE IF NOT EXISTS grade_standard (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='分级标准表';
 
 -- ========================================
--- 表7：市场价格参考表（price_reference）
+-- 表8：市场价格参考表（price_reference）
 -- ========================================
 CREATE TABLE IF NOT EXISTS price_reference (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '价格ID',
@@ -155,7 +175,7 @@ CREATE TABLE IF NOT EXISTS price_reference (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='市场价格参考表';
 
 -- ========================================
--- 表8：溯源信息表（traceability）
+-- 表9：溯源信息表（traceability）
 -- ========================================
 CREATE TABLE IF NOT EXISTS traceability (
   id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '溯源ID',
@@ -171,26 +191,6 @@ CREATE TABLE IF NOT EXISTS traceability (
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   FOREIGN KEY (sample_id) REFERENCES product_sample(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='溯源信息表';
-
--- ========================================
--- 表9：模型信息表（model_info）
--- ========================================
-CREATE TABLE IF NOT EXISTS model_info (
-  id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '模型ID',
-  version VARCHAR(50) NOT NULL UNIQUE COMMENT '版本号',
-  weight_path VARCHAR(255) NOT NULL COMMENT '权重文件路径',
-  algorithm VARCHAR(100) COMMENT '算法名称（YOLOv8n/YOLOv8s等）',
-  map50 DECIMAL(5, 4) COMMENT 'mAP@0.5 指标',
-  precision_val DECIMAL(5, 4) COMMENT 'Precision',
-  recall_val DECIMAL(5, 4) COMMENT 'Recall',
-  description TEXT COMMENT '模型描述',
-  is_active TINYINT NOT NULL DEFAULT 0 COMMENT '是否当前激活',
-  trained_at DATETIME COMMENT '训练时间',
-  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
-  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
-  INDEX idx_version (version),
-  INDEX idx_active (is_active)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='模型信息表';
 
 -- ========================================
 -- 表10：操作日志表（operation_log）
