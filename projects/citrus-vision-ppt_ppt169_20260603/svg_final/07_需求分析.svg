@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,44 H63 A3,3 0 0 1 66,47 V97 A3,3 0 0 1 63,100 H63 A3,3 0 0 1 60,97 V47 A3,3 0 0 1 63,44 Z" />
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">需求分析：功能性 + 非功能性</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">用例图建模参与者与用例，14 项功能需求分组，并明确性能 / 可用性 / 交付约束</text>
+  </g>
+
+  
+  <g id="usecase">
+    <text x="120" y="150" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">用例图</text>
+    
+    <path fill="none" stroke="#0E7C66" stroke-width="2" d="M247,168 H573 A12,12 0 0 1 585,180 V558 A12,12 0 0 1 573,570 H247 A12,12 0 0 1 235,558 V180 A12,12 0 0 1 247,168 Z" />
+    <text x="410" y="190" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">CitrusVision 系统</text>
+
+    
+    <g id="actor-user" stroke="#5B6B73" stroke-width="2" fill="none">
+      <circle cx="120" cy="246" r="12" fill="#5B6B73" stroke="none" />
+      <line x1="120" y1="258" x2="120" y2="292" />
+      <line x1="100" y1="270" x2="140" y2="270" />
+      <line x1="120" y1="292" x2="106" y2="312" />
+      <line x1="120" y1="292" x2="134" y2="312" />
+    </g>
+    <text x="120" y="332" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">普通用户</text>
+    <g id="actor-admin" stroke="#5B6B73" stroke-width="2" fill="none">
+      <circle cx="120" cy="446" r="12" fill="#5B6B73" stroke="none" />
+      <line x1="120" y1="458" x2="120" y2="492" />
+      <line x1="100" y1="470" x2="140" y2="470" />
+      <line x1="120" y1="492" x2="106" y2="512" />
+      <line x1="120" y1="492" x2="134" y2="512" />
+    </g>
+    <text x="120" y="532" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">管理员</text>
+
+    
+    <g stroke="#94A3B8" stroke-width="1.3">
+      <line x1="138" y1="270" x2="272" y2="222" />
+      <line x1="138" y1="275" x2="272" y2="292" />
+      <line x1="138" y1="285" x2="272" y2="362" />
+      <line x1="138" y1="470" x2="272" y2="457" />
+      <line x1="138" y1="478" x2="352" y2="522" />
+    </g>
+
+    
+    <g id="uc-user">
+      <ellipse cx="330" cy="222" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="330" y="227" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">注册 / 登录</text>
+      <ellipse cx="490" cy="222" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="490" y="227" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">图像上传</text>
+      <ellipse cx="330" cy="292" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="330" y="297" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">缺陷检测</text>
+      <ellipse cx="490" cy="292" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="490" y="297" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">品质分级</text>
+      <ellipse cx="330" cy="362" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="330" y="367" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">结果可视化</text>
+      <ellipse cx="490" cy="362" rx="58" ry="22" fill="#0E7C66" fill-opacity="0.08" stroke="#0E7C66" stroke-width="1.5" />
+      <text x="490" y="367" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#0A5A49">溯源与报表</text>
+    </g>
+    
+    <g stroke="#F2811D" stroke-width="1.3" stroke-dasharray="5,3">
+      <line x1="490" y1="244" x2="370" y2="280" />
+      <line x1="490" y1="244" x2="480" y2="270" />
+    </g>
+    <text x="408" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" fill="#C2610A">«include»</text>
+
+    
+    <g id="uc-admin">
+      <ellipse cx="330" cy="457" rx="58" ry="22" fill="#F2811D" fill-opacity="0.08" stroke="#F2811D" stroke-width="1.5" />
+      <text x="330" y="462" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#C2610A">标准 / 价格</text>
+      <ellipse cx="490" cy="457" rx="58" ry="22" fill="#F2811D" fill-opacity="0.08" stroke="#F2811D" stroke-width="1.5" />
+      <text x="490" y="462" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#C2610A">模型管理</text>
+      <ellipse cx="410" cy="522" rx="58" ry="22" fill="#F2811D" fill-opacity="0.08" stroke="#F2811D" stroke-width="1.5" />
+      <text x="410" y="527" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#C2610A">统计与日志</text>
+    </g>
+  </g>
+
+  
+  <g id="reqs">
+    <text x="710" y="150" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">需求规格（14 FR + 非功能）</text>
+    
+    <g id="fr-core">
+      <path fill="#F4F7F6" d="M722,162 H1203 A12,12 0 0 1 1215,174 V250 A12,12 0 0 1 1203,262 H722 A12,12 0 0 1 710,250 V174 A12,12 0 0 1 722,162 Z" />
+      <path fill="#0E7C66" d="M713,162 H713 A3,3 0 0 1 716,165 V259 A3,3 0 0 1 713,262 H713 A3,3 0 0 1 710,259 V165 A3,3 0 0 1 713,162 Z" />
+      
+  <g transform="translate(730.0, 178.0) scale(0.9166666666666666)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+      <text x="760" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">检测核心 <tspan fill="#0E7C66" font-size="12">P0 · MVP</tspan></text>
+      <text x="732" y="222" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登录鉴权 · 图像上传 · 预处理（ROI/白平衡）</text>
+      <text x="732" y="246" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缺陷检测 · 品质分级 · 结果可视化</text>
+    </g>
+    
+    <g id="fr-value">
+      <path fill="#F4F7F6" d="M722,274 H1203 A12,12 0 0 1 1215,286 V346 A12,12 0 0 1 1203,358 H722 A12,12 0 0 1 710,346 V286 A12,12 0 0 1 722,274 Z" />
+      <path fill="#2E9E5B" d="M713,274 H713 A3,3 0 0 1 716,277 V355 A3,3 0 0 1 713,358 H713 A3,3 0 0 1 710,355 V277 A3,3 0 0 1 713,274 Z" />
+      
+  <g transform="translate(730.0, 290.0) scale(0.9166666666666666)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 17l0 .01" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 7l0 .01" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M17 7l0 .01" />
+    <path d="M14 14l3 0" />
+    <path d="M20 14l0 .01" />
+    <path d="M14 14l0 3" />
+    <path d="M14 20l3 0" />
+    <path d="M17 17l3 0" />
+    <path d="M20 17l0 3" />
+  </g>
+      <text x="760" y="307" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">业务增值 <tspan fill="#2E9E5B" font-size="12">P1 · 加分</tspan></text>
+      <text x="732" y="334" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">溯源二维码 · 价格参考 · PDF/Excel 导出 · 样本管理</text>
+    </g>
+    
+    <g id="fr-mgmt">
+      <path fill="#F4F7F6" d="M722,370 H1203 A12,12 0 0 1 1215,382 V442 A12,12 0 0 1 1203,454 H722 A12,12 0 0 1 710,442 V382 A12,12 0 0 1 722,370 Z" />
+      <path fill="#0A5A49" d="M713,370 H713 A3,3 0 0 1 716,373 V451 A3,3 0 0 1 713,454 H713 A3,3 0 0 1 710,451 V373 A3,3 0 0 1 713,370 Z" />
+      
+  <g transform="translate(730.0, 386.0) scale(0.9166666666666666)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065" />
+    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+  </g>
+      <text x="760" y="403" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">系统管理 <tspan fill="#0A5A49" font-size="12">P1 – P2</tspan></text>
+      <text x="732" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">模型管理 · 标准管理 · 操作日志 · 统计看板</text>
+    </g>
+    
+    <g id="fr-nfr">
+      <path fill="#F2811D" fill-opacity="0.07" d="M722,466 H1203 A12,12 0 0 1 1215,478 V574 A12,12 0 0 1 1203,586 H722 A12,12 0 0 1 710,574 V478 A12,12 0 0 1 722,466 Z" />
+      <path fill="#F2811D" d="M713,466 H713 A3,3 0 0 1 716,469 V583 A3,3 0 0 1 713,586 H713 A3,3 0 0 1 710,583 V469 A3,3 0 0 1 713,466 Z" />
+      
+  <g transform="translate(730.0, 482.0) scale(0.9166666666666666)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+      <text x="760" y="499" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">非功能需求</text>
+      <text x="732" y="525" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73"><tspan fill="#C2610A" font-weight="700">性能</tspan>：单张 ≤3s · 批量 10 张 ≤30s · ≥5 并发不崩</text>
+      <text x="732" y="549" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73"><tspan fill="#C2610A" font-weight="700">可用性</tspan>：全中文 · 核心检测 ≤3 步 · H5 适配手机</text>
+      <text x="732" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73"><tspan fill="#C2610A" font-weight="700">交付</tspan>：UML 齐全 · 代码注释 · 视频 ≤50M · 规范打包</text>
+    </g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">07 / 18</text>
+  </g>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,44 H63 A3,3 0 0 1 66,47 V97 A3,3 0 0 1 63,100 H63 A3,3 0 0 1 60,97 V47 A3,3 0 0 1 63,44 Z" />
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">团队分工与协作机制</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">算法配双人攻坚 · 后端集成由组长把控 · 前端测试文档一人贯通 —— 分工可追溯（协作占 30 分）</text>
+  </g>
+
+  
+  <g id="member-chen">
+    <path fill="#F4F7F6" d="M76,148 H316 A16,16 0 0 1 332,164 V490 A16,16 0 0 1 316,506 H76 A16,16 0 0 1 60,490 V164 A16,16 0 0 1 76,148 Z" />
+    <path d="M 96 148 h 168 a 16 16 0 0 1 16 16 v 26 h -200 v -26 a 16 16 0 0 1 16 -16 Z" fill="#0E7C66" />
+    <text x="196" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">组长 · PM</text>
+    <circle cx="196" cy="240" r="44" fill="#0E7C66" fill-opacity="0.12" />
+    <circle cx="196" cy="240" r="34" fill="#0E7C66" />
+    
+  <g transform="translate(180.0, 224.0) scale(1.3333333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+  </g>
+    <text x="196" y="312" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#1F2A33">陈绍杰</text>
+    <text x="196" y="334" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0E7C66">后端 + 架构 + 集成</text>
+    <line x1="90" y1="348" x2="302" y2="348" stroke="#E2E8E9" stroke-width="1" />
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <circle cx="88" cy="371" r="2.5" fill="#F2811D" /><text x="100" y="376" font-size="12" fill="#5B6B73">总体架构设计与技术选型</text>
+      <circle cx="88" cy="393" r="2.5" fill="#F2811D" /><text x="100" y="398" font-size="12" fill="#5B6B73">后端 API · 数据库建模</text>
+      <circle cx="88" cy="415" r="2.5" fill="#F2811D" /><text x="100" y="420" font-size="12" fill="#5B6B73">集成联调 · 报告统稿 · 汇报组织</text>
+    </g>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M95,450 H297 A11,11 0 0 1 308,461 V461 A11,11 0 0 1 297,472 H95 A11,11 0 0 1 84,461 V461 A11,11 0 0 1 95,450 Z" />
+    <text x="196" y="465" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49">系统设计</text>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M95,476 H297 A11,11 0 0 1 308,487 V487 A11,11 0 0 1 297,498 H95 A11,11 0 0 1 84,487 V487 A11,11 0 0 1 95,476 Z" />
+    <text x="196" y="491" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49">系统实现 · 报告统稿</text>
+  </g>
+
+  
+  <g id="member-huangqd">
+    <path fill="#F4F7F6" d="M372,148 H612 A16,16 0 0 1 628,164 V490 A16,16 0 0 1 612,506 H372 A16,16 0 0 1 356,490 V164 A16,16 0 0 1 372,148 Z" />
+    <path d="M 392 148 h 168 a 16 16 0 0 1 16 16 v 26 h -200 v -26 a 16 16 0 0 1 16 -16 Z" fill="#F2811D" />
+    <text x="492" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">算法负责人</text>
+    <circle cx="492" cy="240" r="44" fill="#F2811D" fill-opacity="0.12" />
+    <circle cx="492" cy="240" r="34" fill="#F2811D" />
+    
+  <g transform="translate(476.0, 224.0) scale(1.3333333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g>
+    <text x="492" y="312" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#1F2A33">黄权达</text>
+    <text x="492" y="334" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#C2610A">YOLOv8 缺陷检测</text>
+    <line x1="386" y1="348" x2="598" y2="348" stroke="#E2E8E9" stroke-width="1" />
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <circle cx="384" cy="371" r="2.5" fill="#0E7C66" /><text x="396" y="376" font-size="12" fill="#5B6B73">YOLOv8 缺陷检测训练调优</text>
+      <circle cx="384" cy="393" r="2.5" fill="#0E7C66" /><text x="396" y="398" font-size="12" fill="#5B6B73">模型部署与推理服务</text>
+      <circle cx="384" cy="415" r="2.5" fill="#0E7C66" /><text x="396" y="420" font-size="12" fill="#5B6B73">算法评估（mAP / 混淆矩阵）</text>
+    </g>
+    <path fill="#F2811D" fill-opacity="0.12" d="M391,450 H593 A11,11 0 0 1 604,461 V461 A11,11 0 0 1 593,472 H391 A11,11 0 0 1 380,461 V461 A11,11 0 0 1 391,450 Z" />
+    <text x="492" y="465" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#C2610A">算法实现</text>
+    <path fill="#F2811D" fill-opacity="0.12" d="M391,476 H593 A11,11 0 0 1 604,487 V487 A11,11 0 0 1 593,498 H391 A11,11 0 0 1 380,487 V487 A11,11 0 0 1 391,476 Z" />
+    <text x="492" y="491" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#C2610A">模型评估</text>
+  </g>
+
+  
+  <g id="member-zhang">
+    <path fill="#F4F7F6" d="M668,148 H908 A16,16 0 0 1 924,164 V490 A16,16 0 0 1 908,506 H668 A16,16 0 0 1 652,490 V164 A16,16 0 0 1 668,148 Z" />
+    <path d="M 688 148 h 168 a 16 16 0 0 1 16 16 v 26 h -200 v -26 a 16 16 0 0 1 16 -16 Z" fill="#0A5A49" />
+    <text x="788" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">算法副 · 数据</text>
+    <circle cx="788" cy="240" r="44" fill="#0A5A49" fill-opacity="0.12" />
+    <circle cx="788" cy="240" r="34" fill="#0A5A49" />
+    
+  <g transform="translate(772.0, 224.0) scale(1.3333333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+    <text x="788" y="312" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#1F2A33">张嘉豪</text>
+    <text x="788" y="334" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0A5A49">数据工程 + 传统 CV</text>
+    <line x1="682" y1="348" x2="894" y2="348" stroke="#E2E8E9" stroke-width="1" />
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <circle cx="684" cy="371" r="2.5" fill="#F2811D" /><text x="696" y="376" font-size="12" fill="#5B6B73">数据集采集/清洗/标注/划分</text>
+      <circle cx="684" cy="393" r="2.5" fill="#F2811D" /><text x="696" y="398" font-size="12" fill="#5B6B73">传统 CV 量化分级</text>
+      <circle cx="684" cy="415" r="2.5" fill="#F2811D" /><text x="696" y="420" font-size="12" fill="#5B6B73">需求分析 · DFD · 数据字典</text>
+    </g>
+    <path fill="#0A5A49" fill-opacity="0.10" d="M687,450 H889 A11,11 0 0 1 900,461 V461 A11,11 0 0 1 889,472 H687 A11,11 0 0 1 676,461 V461 A11,11 0 0 1 687,450 Z" />
+    <text x="788" y="465" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49">系统分析</text>
+    <path fill="#0A5A49" fill-opacity="0.10" d="M687,476 H889 A11,11 0 0 1 900,487 V487 A11,11 0 0 1 889,498 H687 A11,11 0 0 1 676,487 V487 A11,11 0 0 1 687,476 Z" />
+    <text x="788" y="491" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49">数据工程</text>
+  </g>
+
+  
+  <g id="member-huanghr">
+    <path fill="#F4F7F6" d="M964,148 H1204 A16,16 0 0 1 1220,164 V490 A16,16 0 0 1 1204,506 H964 A16,16 0 0 1 948,490 V164 A16,16 0 0 1 964,148 Z" />
+    <path d="M 984 148 h 168 a 16 16 0 0 1 16 16 v 26 h -200 v -26 a 16 16 0 0 1 16 -16 Z" fill="#2E9E5B" />
+    <text x="1084" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">前端 · 测试 · 文档</text>
+    <circle cx="1084" cy="240" r="44" fill="#2E9E5B" fill-opacity="0.12" />
+    <circle cx="1084" cy="240" r="34" fill="#2E9E5B" />
+    
+  <g transform="translate(1068.0, 224.0) scale(1.3333333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M7 8l-4 4l4 4" />
+    <path d="M17 8l4 4l-4 4" />
+    <path d="M14 4l-4 16" />
+  </g>
+    <text x="1084" y="312" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#1F2A33">黄浩然</text>
+    <text x="1084" y="334" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1F7A45">Vue 前端 + 测试</text>
+    <line x1="978" y1="348" x2="1190" y2="348" stroke="#E2E8E9" stroke-width="1" />
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <circle cx="980" cy="371" r="2.5" fill="#F2811D" /><text x="992" y="376" font-size="12" fill="#5B6B73">Vue3 前端 · 结果可视化</text>
+      <circle cx="980" cy="393" r="2.5" fill="#F2811D" /><text x="992" y="398" font-size="12" fill="#5B6B73">报表导出 · 测试用例</text>
+      <circle cx="980" cy="415" r="2.5" fill="#F2811D" /><text x="992" y="420" font-size="12" fill="#5B6B73">演示视频 · 文档协助</text>
+    </g>
+    <path fill="#2E9E5B" fill-opacity="0.12" d="M983,450 H1185 A11,11 0 0 1 1196,461 V461 A11,11 0 0 1 1185,472 H983 A11,11 0 0 1 972,461 V461 A11,11 0 0 1 983,450 Z" />
+    <text x="1084" y="465" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F7A45">前端实现</text>
+    <path fill="#2E9E5B" fill-opacity="0.12" d="M983,476 H1185 A11,11 0 0 1 1196,487 V487 A11,11 0 0 1 1185,498 H983 A11,11 0 0 1 972,487 V487 A11,11 0 0 1 983,476 Z" />
+    <text x="1084" y="491" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F7A45">测试 · 文档</text>
+  </g>
+
+  
+  <g id="collab">
+    <path fill="#0E7C66" fill-opacity="0.06" d="M74,522 H1206 A14,14 0 0 1 1220,536 V628 A14,14 0 0 1 1206,642 H74 A14,14 0 0 1 60,628 V536 A14,14 0 0 1 74,522 Z" />
+    <path fill="#F2811D" d="M63,522 H63 A3,3 0 0 1 66,525 V639 A3,3 0 0 1 63,642 H63 A3,3 0 0 1 60,639 V525 A3,3 0 0 1 63,522 Z" />
+    
+  <g transform="translate(84.0, 540.0) scale(0.9166666666666666)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M7 8l0 8" />
+    <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
+    <path d="M14 14l3 -3l3 3" />
+  </g>
+    <text x="114" y="557" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0A5A49">协作机制 · 接口契约先行，分支并行，组长合并</text>
+    
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <g stroke="#0E7C66" stroke-width="2" fill="none" stroke-opacity="0.5" stroke-linecap="round">
+        <path d="M 296 588 h 54 m -10 -6 l 10 6 l -10 6" />
+        <path d="M 576 588 h 54 m -10 -6 l 10 6 l -10 6" />
+        <path d="M 856 588 h 54 m -10 -6 l 10 6 l -10 6" />
+      </g>
+      <path fill="#FFFFFF" d="M107,574 H277 A15,15 0 0 1 292,589 V589 A15,15 0 0 1 277,604 H107 A15,15 0 0 1 92,589 V589 A15,15 0 0 1 107,574 Z" />
+      <text x="192" y="594" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33">① 接口契约先行</text>
+      <path fill="#FFFFFF" d="M387,574 H557 A15,15 0 0 1 572,589 V589 A15,15 0 0 1 557,604 H387 A15,15 0 0 1 372,589 V589 A15,15 0 0 1 387,574 Z" />
+      <text x="472" y="594" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33">② Git 分支 feat/* 并行</text>
+      <path fill="#FFFFFF" d="M667,574 H837 A15,15 0 0 1 852,589 V589 A15,15 0 0 1 837,604 H667 A15,15 0 0 1 652,589 V589 A15,15 0 0 1 667,574 Z" />
+      <text x="752" y="594" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33">③ 组长合并 + 每日同步</text>
+      <path fill="#FFFFFF" d="M947,574 H1117 A15,15 0 0 1 1132,589 V589 A15,15 0 0 1 1117,604 H947 A15,15 0 0 1 932,589 V589 A15,15 0 0 1 947,574 Z" />
+      <text x="1032" y="594" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33">④ 文档分阶段统稿</text>
+    </g>
+    <text x="92" y="628" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">算法是难点 → 配双人（<tspan font-weight="700" fill="#C2610A">黄权达 + 张嘉豪</tspan>）；后端是集成枢纽 → 组长把控；前端 + 测试 + 文档由一人贯通，保演示与交付</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="690" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="690" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">15 / 18</text>
+  </g>
+</svg>

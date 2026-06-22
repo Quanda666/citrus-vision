@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="pipeShadow" x="-12%" y="-10%" width="124%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" result="o" />
+      <feFlood flood-color="#0F172A" flood-opacity="0.05" result="c" />
+      <feComposite in="c" in2="o" operator="in" result="s" />
+      <feMerge><feMergeNode in="s" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,34 H63 A3,3 0 0 1 66,37 V81 A3,3 0 0 1 63,84 H63 A3,3 0 0 1 60,81 V37 A3,3 0 0 1 63,34 Z" />
+    <text x="82" y="64" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">核心算法方案：双引擎 · 可解释 · 可兜底</text>
+    <text x="84" y="90" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">传统 CV 做品质分级 + 深度学习 YOLOv8 做缺陷检测——分级附量化依据，非黑盒</text>
+  </g>
+
+  
+  <g id="legend">
+    <circle cx="74" cy="115" r="6" fill="#0E7C66" /><text x="86" y="120" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">传统 CV（分割 / 特征 / 分级）</text>
+    <circle cx="324" cy="115" r="6" fill="#F2811D" /><text x="336" y="120" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">深度学习 YOLOv8（缺陷检测）</text>
+  </g>
+
+  
+  <g id="arrows" fill="#CBD5E1">
+    <path d="M 280 300 l 0 -8 l 14 8 l -14 8 Z" />
+    <path d="M 512 300 l 0 -8 l 14 8 l -14 8 Z" />
+    <path d="M 744 300 l 0 -8 l 14 8 l -14 8 Z" />
+    <path d="M 976 300 l 0 -8 l 14 8 l -14 8 Z" />
+  </g>
+
+  
+  <g id="stage-1">
+    <path fill="#FFFFFF" stroke="#A9D2C8" stroke-width="1.5" filter="url(#pipeShadow)" d="M68,148 H270 A8,8 0 0 1 278,156 V436 A8,8 0 0 1 270,444 H68 A8,8 0 0 1 60,436 V156 A8,8 0 0 1 68,148 Z" />
+    <path d="M 68 148 h 202 a 8 8 0 0 1 8 8 v 48 h -218 v -48 a 8 8 0 0 1 8 -8 Z" fill="#0E7C66" />
+    <path fill="#FFFFFF" d="M80,160 H96 A6,6 0 0 1 102,166 V182 A6,6 0 0 1 96,188 H80 A6,6 0 0 1 74,182 V166 A6,6 0 0 1 80,160 Z" /><text x="88" y="180" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">01</text>
+    <text x="112" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">预处理</text>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M85,216 H155 A11,11 0 0 1 166,227 V227 A11,11 0 0 1 155,238 H85 A11,11 0 0 1 74,227 V227 A11,11 0 0 1 85,216 Z" /><text x="120" y="231" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#0A5A49">传统 CV</text>
+    <circle cx="80" cy="266" r="2.5" fill="#0E7C66" /><text x="92" y="271" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缩放归一化</text>
+    <circle cx="80" cy="292" r="2.5" fill="#0E7C66" /><text x="92" y="297" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">高斯去噪</text>
+    <circle cx="80" cy="318" r="2.5" fill="#0E7C66" /><text x="92" y="323" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">灰度世界白平衡</text>
+    <path fill="#0E7C66" fill-opacity="0.07" d="M78,364 H260 A6,6 0 0 1 266,370 V422 A6,6 0 0 1 260,428 H78 A6,6 0 0 1 72,422 V370 A6,6 0 0 1 78,364 Z" />
+    <text x="84" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" font-weight="700" fill="#5B6B73" letter-spacing="1">输出</text>
+    <text x="84" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">标准化图像</text>
+  </g>
+  
+  <g id="stage-2">
+    <path fill="#FFFFFF" stroke="#A9D2C8" stroke-width="1.5" filter="url(#pipeShadow)" d="M300,148 H502 A8,8 0 0 1 510,156 V436 A8,8 0 0 1 502,444 H300 A8,8 0 0 1 292,436 V156 A8,8 0 0 1 300,148 Z" />
+    <path d="M 300 148 h 202 a 8 8 0 0 1 8 8 v 48 h -218 v -48 a 8 8 0 0 1 8 -8 Z" fill="#0E7C66" />
+    <path fill="#FFFFFF" d="M312,160 H328 A6,6 0 0 1 334,166 V182 A6,6 0 0 1 328,188 H312 A6,6 0 0 1 306,182 V166 A6,6 0 0 1 312,160 Z" /><text x="320" y="180" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">02</text>
+    <text x="344" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">果实分割</text>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M317,216 H387 A11,11 0 0 1 398,227 V227 A11,11 0 0 1 387,238 H317 A11,11 0 0 1 306,227 V227 A11,11 0 0 1 317,216 Z" /><text x="352" y="231" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#0A5A49">传统 CV</text>
+    <circle cx="312" cy="266" r="2.5" fill="#0E7C66" /><text x="324" y="271" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">HSV 阈值分割</text>
+    <circle cx="312" cy="292" r="2.5" fill="#0E7C66" /><text x="324" y="297" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">形态学开闭运算</text>
+    <circle cx="312" cy="318" r="2.5" fill="#0E7C66" /><text x="324" y="323" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">外接圆估果径</text>
+    <path fill="#0E7C66" fill-opacity="0.07" d="M310,364 H492 A6,6 0 0 1 498,370 V422 A6,6 0 0 1 492,428 H310 A6,6 0 0 1 304,422 V370 A6,6 0 0 1 310,364 Z" />
+    <text x="316" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" font-weight="700" fill="#5B6B73" letter-spacing="1">输出</text>
+    <text x="316" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">果实掩膜 · ROI</text>
+  </g>
+  
+  <g id="stage-3">
+    <path fill="#FFFFFF" stroke="#F6C79B" stroke-width="1.5" filter="url(#pipeShadow)" d="M532,148 H734 A8,8 0 0 1 742,156 V436 A8,8 0 0 1 734,444 H532 A8,8 0 0 1 524,436 V156 A8,8 0 0 1 532,148 Z" />
+    <path d="M 532 148 h 202 a 8 8 0 0 1 8 8 v 48 h -218 v -48 a 8 8 0 0 1 8 -8 Z" fill="#F2811D" />
+    <path fill="#FFFFFF" d="M544,160 H560 A6,6 0 0 1 566,166 V182 A6,6 0 0 1 560,188 H544 A6,6 0 0 1 538,182 V166 A6,6 0 0 1 544,160 Z" /><text x="552" y="180" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#F2811D">03</text>
+    <text x="576" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">缺陷检测</text>
+    <path fill="#F2811D" fill-opacity="0.12" d="M549,216 H627 A11,11 0 0 1 638,227 V227 A11,11 0 0 1 627,238 H549 A11,11 0 0 1 538,227 V227 A11,11 0 0 1 549,216 Z" /><text x="588" y="231" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#C2610A">深度学习</text>
+    <circle cx="544" cy="266" r="2.5" fill="#F2811D" /><text x="556" y="271" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">YOLOv8n / s</text>
+    <circle cx="544" cy="292" r="2.5" fill="#F2811D" /><text x="556" y="297" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">病斑/裂纹/碰伤/畸形</text>
+    <circle cx="544" cy="318" r="2.5" fill="#F2811D" /><text x="556" y="323" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">框 + 类别 + 置信度</text>
+    <path fill="#F2811D" fill-opacity="0.09" d="M542,364 H724 A6,6 0 0 1 730,370 V422 A6,6 0 0 1 724,428 H542 A6,6 0 0 1 536,422 V370 A6,6 0 0 1 542,364 Z" />
+    <text x="548" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" font-weight="700" fill="#5B6B73" letter-spacing="1">输出</text>
+    <text x="548" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#C2610A">缺陷框列表</text>
+  </g>
+  
+  <g id="stage-4">
+    <path fill="#FFFFFF" stroke="#A9D2C8" stroke-width="1.5" filter="url(#pipeShadow)" d="M764,148 H966 A8,8 0 0 1 974,156 V436 A8,8 0 0 1 966,444 H764 A8,8 0 0 1 756,436 V156 A8,8 0 0 1 764,148 Z" />
+    <path d="M 764 148 h 202 a 8 8 0 0 1 8 8 v 48 h -218 v -48 a 8 8 0 0 1 8 -8 Z" fill="#0E7C66" />
+    <path fill="#FFFFFF" d="M776,160 H792 A6,6 0 0 1 798,166 V182 A6,6 0 0 1 792,188 H776 A6,6 0 0 1 770,182 V166 A6,6 0 0 1 776,160 Z" /><text x="784" y="180" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">04</text>
+    <text x="808" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">特征计算</text>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M781,216 H851 A11,11 0 0 1 862,227 V227 A11,11 0 0 1 851,238 H781 A11,11 0 0 1 770,227 V227 A11,11 0 0 1 781,216 Z" /><text x="816" y="231" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#0A5A49">传统 CV</text>
+    <circle cx="776" cy="266" r="2.5" fill="#0E7C66" /><text x="788" y="271" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">果径（像素→mm）</text>
+    <circle cx="776" cy="292" r="2.5" fill="#0E7C66" /><text x="788" y="297" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">着色率（橙色 %）</text>
+    <circle cx="776" cy="318" r="2.5" fill="#0E7C66" /><text x="788" y="323" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缺陷面积占比 %</text>
+    <path fill="#0E7C66" fill-opacity="0.07" d="M774,364 H956 A6,6 0 0 1 962,370 V422 A6,6 0 0 1 956,428 H774 A6,6 0 0 1 768,422 V370 A6,6 0 0 1 774,364 Z" />
+    <text x="780" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" font-weight="700" fill="#5B6B73" letter-spacing="1">输出</text>
+    <text x="780" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">量化指标</text>
+  </g>
+  
+  <g id="stage-5">
+    <path fill="#FFFFFF" stroke="#A9D2C8" stroke-width="1.5" filter="url(#pipeShadow)" d="M996,148 H1198 A8,8 0 0 1 1206,156 V436 A8,8 0 0 1 1198,444 H996 A8,8 0 0 1 988,436 V156 A8,8 0 0 1 996,148 Z" />
+    <path d="M 996 148 h 202 a 8 8 0 0 1 8 8 v 48 h -218 v -48 a 8 8 0 0 1 8 -8 Z" fill="#0E7C66" />
+    <path fill="#FFFFFF" d="M1008,160 H1024 A6,6 0 0 1 1030,166 V182 A6,6 0 0 1 1024,188 H1008 A6,6 0 0 1 1002,182 V166 A6,6 0 0 1 1008,160 Z" /><text x="1016" y="180" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">05</text>
+    <text x="1040" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">规则分级</text>
+    <path fill="#0E7C66" fill-opacity="0.10" d="M1013,216 H1091 A11,11 0 0 1 1102,227 V227 A11,11 0 0 1 1091,238 H1013 A11,11 0 0 1 1002,227 V227 A11,11 0 0 1 1013,216 Z" /><text x="1052" y="231" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#0A5A49">规则引擎</text>
+    <circle cx="1008" cy="266" r="2.5" fill="#0E7C66" /><text x="1020" y="271" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">多指标阈值判定</text>
+    <circle cx="1008" cy="292" r="2.5" fill="#0E7C66" /><text x="1020" y="297" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一级 / 二级 / 等外</text>
+    <circle cx="1008" cy="318" r="2.5" fill="#0E7C66" /><text x="1020" y="323" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">阈值可在线配置</text>
+    <path fill="#0E7C66" fill-opacity="0.07" d="M1006,364 H1188 A6,6 0 0 1 1194,370 V422 A6,6 0 0 1 1188,428 H1006 A6,6 0 0 1 1000,422 V370 A6,6 0 0 1 1006,364 Z" />
+    <text x="1012" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="10" font-weight="700" fill="#5B6B73" letter-spacing="1">输出</text>
+    <text x="1012" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="800" fill="#0A5A49">等级 + 依据</text>
+  </g>
+
+  
+  <g id="grading">
+    <path fill="#F4F7F6" d="M72,466 H768 A12,12 0 0 1 780,478 V626 A12,12 0 0 1 768,638 H72 A12,12 0 0 1 60,626 V478 A12,12 0 0 1 72,466 Z" />
+    <text x="82" y="496" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">分级规则（自拟可量化标准，阈值可配置）</text>
+    <path fill="#2E9E5B" d="M95,512 H145 A13,13 0 0 1 158,525 V525 A13,13 0 0 1 145,538 H95 A13,13 0 0 1 82,525 V525 A13,13 0 0 1 95,512 Z" /><text x="120" y="530" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">一级 精品</text>
+    <text x="172" y="530" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">果径达标 且 着色率 ≥ 85% 且 缺陷占比 &lt; 2% 且 无裂纹</text>
+    <path fill="#0E7C66" d="M95,548 H145 A13,13 0 0 1 158,561 V561 A13,13 0 0 1 145,574 H95 A13,13 0 0 1 82,561 V561 A13,13 0 0 1 95,548 Z" /><text x="120" y="566" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">二级 合格</text>
+    <text x="172" y="566" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">着色率 ≥ 70% 且 缺陷占比 &lt; 5% 且 无严重畸形</text>
+    <path fill="#E0544A" d="M95,584 H145 A13,13 0 0 1 158,597 V597 A13,13 0 0 1 145,610 H95 A13,13 0 0 1 82,597 V597 A13,13 0 0 1 95,584 Z" /><text x="120" y="602" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">等外品</text>
+    <text x="172" y="602" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">着色率 &lt; 70% 或 缺陷占比 ≥ 5% 或 存在裂纹 / 腐烂</text>
+  </g>
+
+  
+  <g id="fallback">
+    <path fill="#F2811D" fill-opacity="0.08" d="M812,466 H1203 A12,12 0 0 1 1215,478 V626 A12,12 0 0 1 1203,638 H812 A12,12 0 0 1 800,626 V478 A12,12 0 0 1 812,466 Z" />
+    
+  <g transform="translate(822.0, 486.0) scale(1.1666666666666667)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="860" y="507" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="800" fill="#C2610A">双保险 · 可兜底</text>
+    <text x="824" y="540" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#1F2A33">DL 效果不佳时，<tspan font-weight="700" fill="#0A5A49">传统 CV 分级链路</tspan>独立</text>
+    <text x="824" y="564" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#1F2A33">可用，保证演示一定有结果。</text>
+    <text x="824" y="596" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#1F2A33">mAP 目标设演示级 <tspan font-weight="700" fill="#C2610A">0.6</tspan>，得分</text>
+    <text x="824" y="620" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#1F2A33">不绑定算法精度——呼应课设策略。</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="694" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">12 / 18</text>
+  </g>
+</svg>

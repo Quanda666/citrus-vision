@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="archShadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="o"/>
+      <feFlood flood-color="#0F172A" flood-opacity="0.05" result="c"/>
+      <feComposite in="c" in2="o" operator="in" result="s"/>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="38" width="6" height="52" rx="3" fill="#0E7C66"/>
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">系统总体架构：四层 B/S 分离</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">职责单一、解耦清晰——支撑功能、便于 4 人并行，并对应概要设计的软件结构图 / 包图</text>
+  </g>
+
+  <!-- ==================== Layer 1: 前端 ==================== -->
+  <g id="layer-frontend">
+    <rect x="60" y="116" width="40" height="108" rx="8" fill="#0E7C66"/>
+    <text x="80" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">01</text>
+    <rect x="108" y="116" width="1107" height="108" rx="10" fill="#0E7C66" fill-opacity="0.05" stroke="#A9D2C8" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="124" y="138" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">前端层 · Vue3（PC Web + 移动 H5）渲染 / 交互 / 可视化</text>
+    <g id="l1c1"><rect x="130" y="148" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/device-mobile" x="144" y="162" width="26" height="26" fill="#0E7C66"/><text x="180" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">PC Web + H5</text><text x="180" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">双端响应式界面</text></g>
+    <g id="l1c2"><rect x="403" y="148" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/eye-check" x="417" y="162" width="26" height="26" fill="#0E7C66"/><text x="453" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">缺陷框 Canvas</text><text x="453" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">醒目红框标注</text></g>
+    <g id="l1c3"><rect x="676" y="148" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/chart-pie" x="690" y="162" width="26" height="26" fill="#0E7C66"/><text x="726" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">ECharts 看板</text><text x="726" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">等级 / 缺陷统计</text></g>
+    <g id="l1c4"><rect x="949" y="148" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/upload" x="963" y="162" width="26" height="26" fill="#0E7C66"/><text x="999" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">上传交互</text><text x="999" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">拖拽 + 拍照</text></g>
+  </g>
+
+  <!-- protocol 1 -->
+  <g id="proto1"><rect x="500" y="226" width="320" height="20" rx="10" fill="#1F2A33" fill-opacity="0.06"/><text x="660" y="240" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#475569">↑↓ HTTP / JSON · REST /api/v1</text></g>
+
+  <!-- ==================== Layer 2: 后端 ==================== -->
+  <g id="layer-backend">
+    <rect x="60" y="250" width="40" height="108" rx="8" fill="#0A5A49"/>
+    <text x="80" y="310" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">02</text>
+    <rect x="108" y="250" width="1107" height="108" rx="10" fill="#0A5A49" fill-opacity="0.05" stroke="#9FC7BC" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="124" y="272" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">后端 API 层 · FastAPI 鉴权 / 业务编排 / 数据库读写（不直接推理）</text>
+    <g id="l2c1"><rect x="130" y="282" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/key" x="144" y="296" width="26" height="26" fill="#0A5A49"/><text x="180" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">鉴权 JWT</text><text x="180" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">登录 / 角色 / 会话</text></g>
+    <g id="l2c2"><rect x="403" y="282" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/git-branch" x="417" y="296" width="26" height="26" fill="#0A5A49"/><text x="453" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">业务编排</text><text x="453" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">任务调度 · 不推理</text></g>
+    <g id="l2c3"><rect x="676" y="282" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/folder" x="690" y="296" width="26" height="26" fill="#0A5A49"/><text x="726" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">文件管理</text><text x="726" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">图片 / 标注图存取</text></g>
+    <g id="l2c4"><rect x="949" y="282" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/link-plus" x="963" y="296" width="26" height="26" fill="#0A5A49"/><text x="999" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">算法调用客户端</text><text x="999" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">内部 HTTP 调 /infer</text></g>
+  </g>
+
+  <!-- protocol 2 -->
+  <g id="proto2"><rect x="500" y="360" width="320" height="20" rx="10" fill="#F2811D" fill-opacity="0.10"/><text x="660" y="374" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#C2610A">↓ 内部 HTTP · POST /infer（解耦）</text></g>
+
+  <!-- ==================== Layer 3: 算法 ==================== -->
+  <g id="layer-algo">
+    <rect x="60" y="384" width="40" height="108" rx="8" fill="#F2811D"/>
+    <text x="80" y="444" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">03</text>
+    <rect x="108" y="384" width="1107" height="108" rx="10" fill="#F2811D" fill-opacity="0.05" stroke="#F6C79B" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="124" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A" letter-spacing="1">算法服务层 · 独立进程加载模型，提供 /infer，可单独部署 / 替换</text>
+    <g id="l3c1"><rect x="130" y="416" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/cpu" x="144" y="430" width="26" height="26" fill="#F2811D"/><text x="180" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">/infer 接口</text><text x="180" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">图入 · 结构化结果出</text></g>
+    <g id="l3c2"><rect x="403" y="416" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/filter-cog" x="417" y="430" width="26" height="26" fill="#F2811D"/><text x="453" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">OpenCV 管线</text><text x="453" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">预处理 + 果实分割</text></g>
+    <g id="l3c3"><rect x="676" y="416" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/scan" x="690" y="430" width="26" height="26" fill="#F2811D"/><text x="726" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">YOLOv8 检测</text><text x="726" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">缺陷框+类别+置信度</text></g>
+    <g id="l3c4"><rect x="949" y="416" width="255" height="66" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/ruler" x="963" y="430" width="26" height="26" fill="#F2811D"/><text x="999" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">规则分级引擎</text><text x="999" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">果径/着色率/占比</text></g>
+  </g>
+
+  <!-- protocol 3 -->
+  <g id="proto3"><rect x="500" y="494" width="320" height="20" rx="10" fill="#1F2A33" fill-opacity="0.06"/><text x="660" y="508" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#475569">↕ SQLAlchemy ORM · 文件 I/O</text></g>
+
+  <!-- ==================== Layer 4: 数据 ==================== -->
+  <g id="layer-data">
+    <rect x="60" y="518" width="40" height="96" rx="8" fill="#5B6B73"/>
+    <text x="80" y="572" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">04</text>
+    <rect x="108" y="518" width="1107" height="96" rx="10" fill="#5B6B73" fill-opacity="0.05" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="124" y="540" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569" letter-spacing="1">数据层 · MySQL 业务数据 + 本地文件 + 模型权重</text>
+    <g id="l4c1"><rect x="130" y="550" width="345" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/database" x="146" y="564" width="26" height="26" fill="#5B6B73"/><text x="182" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">MySQL 业务库</text><text x="182" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">10 张核心表</text></g>
+    <g id="l4c2"><rect x="495" y="550" width="345" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/photo" x="511" y="564" width="26" height="26" fill="#5B6B73"/><text x="547" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">文件存储 uploads</text><text x="547" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">原图 + 标注图</text></g>
+    <g id="l4c3"><rect x="860" y="550" width="344" height="54" rx="8" fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)"/><use data-icon="tabler-outline/box" x="876" y="564" width="26" height="26" fill="#5B6B73"/><text x="912" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">模型权重 weights</text><text x="912" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">best.pt 等</text></g>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="694" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">11 / 18</text>
+  </g>
+</svg>

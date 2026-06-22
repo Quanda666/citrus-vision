@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="aFlow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#94A3B8" />
+    </marker>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,40 H63 A3,3 0 0 1 66,43 V91 A3,3 0 0 1 63,94 H63 A3,3 0 0 1 60,91 V43 A3,3 0 0 1 63,40 Z" />
+    <text x="82" y="74" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="800" fill="#1F2A33">核心业务流程：上传 → 检测结果输出</text>
+    <text x="84" y="102" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">四角色协同的端到端主流程——后端只编排不推理，算法拆为独立服务</text>
+  </g>
+
+  
+  <g id="lanes">
+    <rect x="60" y="156" width="1155" height="102" fill="#F4F7F6" />
+    <rect x="60" y="258" width="1155" height="102" fill="#FFFFFF" />
+    <rect x="60" y="360" width="1155" height="102" fill="#FFF7F0" />
+    <rect x="60" y="462" width="1155" height="102" fill="#F4F7F6" />
+    <rect x="60" y="156" width="1155" height="408" fill="none" stroke="#E2E8E9" stroke-width="1.5" />
+    <line x1="180" y1="156" x2="180" y2="564" stroke="#E2E8E9" stroke-width="1.5" />
+    
+    
+  <g transform="translate(78.0, 194.0)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
+    <path d="M11 4h2" />
+    <path d="M12 17v.01" />
+  </g>
+    <text x="120" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">用户/前端</text>
+    
+  <g transform="translate(78.0, 296.0)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
+    <path d="M3 15a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2" />
+    <path d="M7 8l0 .01" />
+    <path d="M7 16l0 .01" />
+  </g>
+    <text x="120" y="305" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">后端 API</text>
+    
+  <g transform="translate(78.0, 398.0)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g>
+    <text x="120" y="407" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">算法服务</text>
+    
+  <g transform="translate(78.0, 500.0)" fill="none" stroke="#5B6B73" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+    <text x="120" y="509" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#5B6B73">数据库</text>
+  </g>
+
+  
+  <g id="arrows" fill="none" stroke="#94A3B8" stroke-width="2">
+    <path d="M 340 207 H 358 V 309 H 368" marker-end="url(#aFlow)" />
+    <path d="M 542 309 H 560 V 411 H 572" marker-end="url(#aFlow)" />
+    <path d="M 876 411 H 894 V 309 H 906" marker-end="url(#aFlow)" />
+    <path d="M 1000 280 V 240" marker-end="url(#aFlow)" />
+    <path d="M 457 340 V 480" marker-end="url(#aFlow)" />
+    <path d="M 1000 340 V 480" marker-end="url(#aFlow)" />
+  </g>
+
+  
+  <g id="nodes">
+    
+    <path fill="#0E7C66" fill-opacity="0.10" stroke="#0E7C66" stroke-width="1.5" d="M194,178 H332 A8,8 0 0 1 340,186 V228 A8,8 0 0 1 332,236 H194 A8,8 0 0 1 186,228 V186 A8,8 0 0 1 194,178 Z" />
+    <text x="200" y="204" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">① 登录 · 上传图片</text>
+    <text x="200" y="224" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">拖拽 / 拍照 / 批量</text>
+    
+    <path fill="#0A5A49" fill-opacity="0.10" stroke="#0A5A49" stroke-width="1.5" d="M380,280 H534 A8,8 0 0 1 542,288 V330 A8,8 0 0 1 534,338 H380 A8,8 0 0 1 372,330 V288 A8,8 0 0 1 380,280 Z" />
+    <text x="386" y="306" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">② 校验存图 · 建样本</text>
+    <text x="386" y="326" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">创建检测任务（processing）</text>
+    
+    <path fill="#F2811D" fill-opacity="0.12" stroke="#F2811D" stroke-width="1.5" d="M580,382 H868 A8,8 0 0 1 876,390 V432 A8,8 0 0 1 868,440 H580 A8,8 0 0 1 572,432 V390 A8,8 0 0 1 580,382 Z" />
+    <text x="588" y="408" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#C2610A">③ 调 /infer（算法五步管线）</text>
+    <text x="588" y="428" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">预处理 → 分割 → YOLOv8 → 特征 → 规则分级</text>
+    
+    <path fill="#0A5A49" fill-opacity="0.10" stroke="#0A5A49" stroke-width="1.5" d="M916,280 H1084 A8,8 0 0 1 1092,288 V330 A8,8 0 0 1 1084,338 H916 A8,8 0 0 1 908,330 V288 A8,8 0 0 1 916,280 Z" />
+    <text x="922" y="306" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">⑤ 写结果 + 缺陷标签</text>
+    <text x="922" y="326" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">关联价格/溯源 · task=done</text>
+    
+    <path fill="#0E7C66" fill-opacity="0.10" stroke="#0E7C66" stroke-width="1.5" d="M916,178 H1084 A8,8 0 0 1 1092,186 V228 A8,8 0 0 1 1084,236 H916 A8,8 0 0 1 908,228 V186 A8,8 0 0 1 916,178 Z" />
+    <text x="922" y="204" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">⑥ 渲染结果</text>
+    <text x="922" y="224" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">标注图+等级+缺陷 → 溯源/导出</text>
+    
+    <path fill="#5B6B73" fill-opacity="0.10" stroke="#5B6B73" stroke-width="1.5" d="M380,484 H534 A8,8 0 0 1 542,492 V532 A8,8 0 0 1 534,540 H380 A8,8 0 0 1 372,532 V492 A8,8 0 0 1 380,484 Z" />
+    <text x="457" y="517" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569">样本 / 任务记录</text>
+    
+    <path fill="#5B6B73" fill-opacity="0.10" stroke="#5B6B73" stroke-width="1.5" d="M916,484 H1084 A8,8 0 0 1 1092,492 V532 A8,8 0 0 1 1084,540 H916 A8,8 0 0 1 908,532 V492 A8,8 0 0 1 916,484 Z" />
+    <text x="1000" y="517" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569">结果 / 缺陷 / 溯源</text>
+  </g>
+
+  
+  <g id="takeaway">
+    <path fill="#F2811D" fill-opacity="0.08" d="M70,586 H1205 A10,10 0 0 1 1215,596 V628 A10,10 0 0 1 1205,638 H70 A10,10 0 0 1 60,628 V596 A10,10 0 0 1 70,586 Z" />
+    
+  <g transform="translate(80.0, 599.0)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M7 8l0 8" />
+    <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
+    <path d="M14 14l3 -3l3 3" />
+  </g>
+    <text x="114" y="618" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">设计要点：后端<tspan font-weight="700" fill="#C2610A">只编排不推理</tspan>，通过内部 HTTP 调用算法服务——<tspan font-weight="700" fill="#0A5A49">解耦、可替换模型、便于 4 人并行</tspan>；辅助流程：管理员维护标准/价格/模型，写操作均记入日志</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">09 / 18</text>
+  </g>
+</svg>

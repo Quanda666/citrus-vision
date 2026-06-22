@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="barGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E7C66" />
+      <stop offset="100%" stop-color="#0A5A49" />
+    </linearGradient>
+    <linearGradient id="barOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2811D" />
+      <stop offset="100%" stop-color="#E0544A" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,38 H63 A3,3 0 0 1 66,41 V87 A3,3 0 0 1 63,90 H63 A3,3 0 0 1 60,87 V41 A3,3 0 0 1 63,38 Z" />
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">项目实施计划与里程碑<tspan font-size="18" font-weight="400" fill="#5B6B73">（按课设阶段规划 · 假设 4 周）</tspan></text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">需求 → 概要 → 详细 → 实现 → 测试，阶段产出即里程碑；关键路径并行启动，不等训练前才找数据</text>
+  </g>
+
+  
+  <g id="task-list" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <rect x="60" y="176" width="1160" height="45" fill="#F4F7F6" />
+    <rect x="60" y="266" width="1160" height="45" fill="#F4F7F6" />
+    <rect x="60" y="356" width="1160" height="45" fill="#F4F7F6" />
+    <rect x="60" y="446" width="1160" height="45" fill="#F4F7F6" />
+    <text x="72" y="204" font-size="13.5" font-weight="700" fill="#1F2A33">选题确认 · 需求分析</text>
+    <text x="72" y="249" font-size="13.5" font-weight="700" fill="#C2610A">数据采集与标注 <tspan font-size="11" fill="#F2811D">★关键</tspan></text>
+    <text x="72" y="294" font-size="13.5" font-weight="700" fill="#1F2A33">概要 / 详细设计</text>
+    <text x="72" y="339" font-size="13.5" font-weight="700" fill="#1F2A33">建库 · 分级原型出图</text>
+    <text x="72" y="384" font-size="13.5" font-weight="700" fill="#1F2A33">前端页面 · 后端 API</text>
+    <text x="72" y="429" font-size="13.5" font-weight="700" fill="#C2610A">YOLOv8 训练调优 · 集成 <tspan font-size="11" fill="#F2811D">★关键</tspan></text>
+    <text x="72" y="474" font-size="13.5" font-weight="700" fill="#C2610A">算法 / 接口联调 <tspan font-size="11" fill="#F2811D">★关键</tspan></text>
+    <text x="72" y="519" font-size="13.5" font-weight="700" fill="#1F2A33">系统测试 · 报告定稿 · 演示排练</text>
+  </g>
+
+  
+  <g id="chartArea">
+    
+    <rect x="298" y="140" width="922" height="30" fill="#0E7C66" fill-opacity="0.08" />
+    <text x="413" y="160" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#0A5A49">W1 · 立项与需求</text>
+    <text x="644" y="160" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#0A5A49">W2 · 设计与原型</text>
+    <text x="875" y="160" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#0A5A49">W3 · 编码实现</text>
+    <text x="1105" y="160" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#0A5A49">W4 · 联调测试交付</text>
+    
+    <g stroke="#E2E8E9" stroke-width="1.5">
+      <line x1="298" y1="140" x2="298" y2="536" />
+      <line x1="528" y1="140" x2="528" y2="536" />
+      <line x1="759" y1="140" x2="759" y2="536" />
+      <line x1="990" y1="140" x2="990" y2="536" />
+      <line x1="1220" y1="140" x2="1220" y2="536" />
+    </g>
+    <line x1="298" y1="536" x2="1220" y2="536" stroke="#CBD5E1" stroke-width="2" />
+    
+    
+    <g id="bars" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">
+      <path fill="url(#barGreen)" d="M308,187 H518 A4,4 0 0 1 522,191 V205 A4,4 0 0 1 518,209 H308 A4,4 0 0 1 304,205 V191 A4,4 0 0 1 308,187 Z" />
+      <text x="413" y="202" text-anchor="middle">用例 / DFD / 数据字典</text>
+
+      <path fill="url(#barOrange)" d="M364,232 H896 A4,4 0 0 1 900,236 V250 A4,4 0 0 1 896,254 H364 A4,4 0 0 1 360,250 V236 A4,4 0 0 1 364,232 Z" />
+      <text x="630" y="247" text-anchor="middle">公开集 + 网络采集 + 自建 · 清洗标注</text>
+
+      <path fill="url(#barGreen)" d="M538,277 H749 A4,4 0 0 1 753,281 V295 A4,4 0 0 1 749,299 H538 A4,4 0 0 1 534,295 V281 A4,4 0 0 1 538,277 Z" />
+      <text x="643" y="292" text-anchor="middle">结构图/E-R/类图/时序</text>
+
+      <path fill="url(#barGreen)" d="M604,322 H816 A4,4 0 0 1 820,326 V340 A4,4 0 0 1 816,344 H604 A4,4 0 0 1 600,340 V326 A4,4 0 0 1 604,322 Z" />
+      <text x="710" y="337" text-anchor="middle">建库 · 分级出图</text>
+
+      <path fill="url(#barGreen)" d="M704,367 H961 A4,4 0 0 1 965,371 V385 A4,4 0 0 1 961,389 H704 A4,4 0 0 1 700,385 V371 A4,4 0 0 1 704,367 Z" />
+      <text x="832" y="382" text-anchor="middle">前端各页 + 后端各 API</text>
+
+      <path fill="url(#barOrange)" d="M769,412 H980 A4,4 0 0 1 984,416 V430 A4,4 0 0 1 980,434 H769 A4,4 0 0 1 765,430 V416 A4,4 0 0 1 769,412 Z" />
+      <text x="874" y="427" text-anchor="middle">训练调优 · 算法集成</text>
+
+      <path fill="url(#barOrange)" d="M904,457 H1096 A4,4 0 0 1 1100,461 V475 A4,4 0 0 1 1096,479 H904 A4,4 0 0 1 900,475 V461 A4,4 0 0 1 904,457 Z" />
+      <text x="1000" y="472" text-anchor="middle">端到端联调</text>
+
+      <path fill="url(#barGreen)" d="M1000,502 H1210 A4,4 0 0 1 1214,506 V520 A4,4 0 0 1 1210,524 H1000 A4,4 0 0 1 996,520 V506 A4,4 0 0 1 1000,502 Z" />
+      <text x="1105" y="517" text-anchor="middle">测试 · 视频 · 打包</text>
+    </g>
+  </g>
+
+  
+  <g id="milestones" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <line x1="298" y1="548" x2="1220" y2="548" stroke="#E2E8E9" stroke-width="1" />
+    
+    <polygon points="413,558 425,570 413,582 401,570" fill="#0A5A49" />
+    <text x="413" y="608" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33"><tspan font-weight="800" fill="#0A5A49">M1</tspan> · 立项需求闭环</text>
+    
+    <polygon points="644,558 656,570 644,582 632,570" fill="#0A5A49" />
+    <text x="644" y="608" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33"><tspan font-weight="800" fill="#0A5A49">M2</tspan> · 设计原型出图</text>
+    
+    <polygon points="875,558 887,570 875,582 863,570" fill="#F2811D" />
+    <text x="875" y="608" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33"><tspan font-weight="800" fill="#C2610A">M3</tspan> · MVP 闭环</text>
+    
+    <polygon points="1105,558 1117,570 1105,582 1093,570" fill="#0A5A49" />
+    <text x="1105" y="608" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2A33"><tspan font-weight="800" fill="#0A5A49">M4</tspan> · 测试交付完成</text>
+  </g>
+
+  
+  <g id="critical-path" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <path fill="#F2811D" fill-opacity="0.08" d="M70,620 H810 A10,10 0 0 1 820,630 V662 A10,10 0 0 1 810,672 H70 A10,10 0 0 1 60,662 V630 A10,10 0 0 1 70,620 Z" />
+    <path fill="#F2811D" d="M63,620 H63 A3,3 0 0 1 66,623 V669 A3,3 0 0 1 63,672 H63 A3,3 0 0 1 60,669 V623 A3,3 0 0 1 63,620 Z" />
+    
+  <g transform="translate(80.0, 634.0)" fill="none" stroke="#C2610A" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="114" y="643" font-size="13" font-weight="800" fill="#C2610A">关键路径</text>
+    <text x="114" y="664" font-size="13" font-weight="700" fill="#1F2A33">数据采集（W1 启动）<tspan fill="#F2811D"> → </tspan>模型训练（W3）<tspan fill="#F2811D"> → </tspan>系统联调（W4）</text>
+
+    
+    <g font-size="12.5" fill="#5B6B73">
+      <path fill="url(#barGreen)" d="M847,626 H863 A3,3 0 0 1 866,629 V635 A3,3 0 0 1 863,638 H847 A3,3 0 0 1 844,635 V629 A3,3 0 0 1 847,626 Z" />
+      <text x="872" y="636" font-weight="600">常规任务</text>
+      <path fill="url(#barOrange)" d="M847,650 H863 A3,3 0 0 1 866,653 V659 A3,3 0 0 1 863,662 H847 A3,3 0 0 1 844,659 V653 A3,3 0 0 1 847,650 Z" />
+      <text x="872" y="660" font-weight="600">关键路径任务</text>
+      <polygon points="970,632 978,640 970,648 962,640" fill="#0A5A49" />
+      <text x="986" y="636" font-weight="600">里程碑</text>
+      <text x="986" y="660" font-size="11.5" fill="#94A3B8">M3 为 MVP 闭环关键节点</text>
+    </g>
+    <text x="1100" y="643" text-anchor="start" font-size="11.5" fill="#94A3B8">若课程周数不同，</text>
+    <text x="1100" y="660" text-anchor="start" font-size="11.5" fill="#94A3B8">按 3 周压缩版调整，</text>
+    <text x="1100" y="676" text-anchor="start" font-size="11.5" fill="#94A3B8">UML 文档不删减</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="700" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">14 / 18</text>
+  </g>
+</svg>

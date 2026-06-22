@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="38" width="6" height="52" rx="3" fill="#0E7C66"/>
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">数据库与核心数据设计</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">MySQL 8 · 10 张核心表——围绕"任务→结果→缺陷"主线建模，配置类独立成表</text>
+  </g>
+
+  <!-- ==================== E-R relations (draw lines first) ==================== -->
+  <g id="er-lines" stroke="#94A3B8" stroke-width="1.5" fill="none">
+    <line x1="216" y1="186" x2="312" y2="186"/>
+    <line x1="141" y1="216" x2="141" y2="300"/>
+    <line x1="141" y1="358" x2="141" y2="442"/>
+    <line x1="216" y1="330" x2="312" y2="345"/>
+    <line x1="390" y1="218" x2="390" y2="326"/>
+    <line x1="390" y1="390" x2="390" y2="500"/>
+    <line x1="468" y1="184" x2="568" y2="200"/>
+    <line x1="468" y1="350" x2="568" y2="352"/>
+    <line x1="468" y1="372" x2="568" y2="494"/>
+    <line x1="141" y1="486" x2="141" y2="566" stroke-dasharray="4,3"/>
+  </g>
+  <g id="er-card" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="700" fill="#5B6B73">
+    <text x="250" y="178">1</text><text x="296" y="178">N</text>
+    <text x="148" y="240">1</text><text x="148" y="292">N</text>
+    <text x="148" y="382">1</text><text x="148" y="434">1</text>
+    <text x="252" y="322">1</text><text x="296" y="344">N</text>
+    <text x="398" y="244">1</text><text x="398" y="318">N</text>
+    <text x="398" y="416">1</text><text x="398" y="492">N</text>
+    <text x="500" y="186">N</text><text x="548" y="200">1</text>
+    <text x="500" y="346">N</text><text x="548" y="352">1</text>
+  </g>
+
+  <!-- ==================== Entities ==================== -->
+  <g id="entities" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <!-- user -->
+    <rect x="66" y="158" width="150" height="58" rx="8" fill="#FFFFFF" stroke="#0E7C66" stroke-width="1.5"/>
+    <text x="78" y="180" font-size="14" font-weight="800" fill="#0A5A49">user 用户</text>
+    <line x1="74" y1="188" x2="208" y2="188" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="78" y="206" font-size="11" fill="#5B6B73">id(PK) · username · role</text>
+    <!-- product_sample -->
+    <rect x="66" y="300" width="150" height="58" rx="8" fill="#FFFFFF" stroke="#0E7C66" stroke-width="1.5"/>
+    <text x="78" y="322" font-size="14" font-weight="800" fill="#0A5A49">product_sample</text>
+    <line x1="74" y1="330" x2="208" y2="330" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="78" y="348" font-size="11" fill="#5B6B73">id(PK) · image_path · origin</text>
+    <!-- traceability -->
+    <rect x="66" y="442" width="150" height="52" rx="8" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.5"/>
+    <text x="78" y="464" font-size="14" font-weight="800" fill="#1F7A45">traceability</text>
+    <line x1="74" y1="472" x2="208" y2="472" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="78" y="488" font-size="11" fill="#5B6B73">id(PK) · origin · qr_code</text>
+    <!-- operation_log -->
+    <rect x="66" y="566" width="150" height="52" rx="8" fill="#FFFFFF" stroke="#5B6B73" stroke-width="1.5"/>
+    <text x="78" y="588" font-size="14" font-weight="800" fill="#475569">operation_log</text>
+    <line x1="74" y1="596" x2="208" y2="596" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="78" y="612" font-size="11" fill="#5B6B73">id(PK) · action · ip</text>
+
+    <!-- detection_task -->
+    <rect x="312" y="158" width="156" height="58" rx="8" fill="#FFFFFF" stroke="#0E7C66" stroke-width="1.5"/>
+    <text x="324" y="180" font-size="14" font-weight="800" fill="#0A5A49">detection_task</text>
+    <line x1="320" y1="188" x2="460" y2="188" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="324" y="206" font-size="11" fill="#5B6B73">id(PK) · task_no · status</text>
+    <!-- detection_result (focal) -->
+    <rect x="312" y="326" width="156" height="64" rx="8" fill="#0E7C66" fill-opacity="0.06" stroke="#0E7C66" stroke-width="2"/>
+    <text x="324" y="348" font-size="14" font-weight="800" fill="#0A5A49">detection_result</text>
+    <line x1="320" y1="356" x2="460" y2="356" stroke="#CFE3DD" stroke-width="1"/>
+    <text x="324" y="374" font-size="11" fill="#5B6B73">id(PK) · grade · 指标</text>
+    <!-- defect_label -->
+    <rect x="312" y="500" width="156" height="58" rx="8" fill="#FFFFFF" stroke="#F2811D" stroke-width="1.5"/>
+    <text x="324" y="522" font-size="14" font-weight="800" fill="#C2610A">defect_label</text>
+    <line x1="320" y1="530" x2="460" y2="530" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="324" y="548" font-size="11" fill="#5B6B73">id(PK) · type · bbox</text>
+
+    <!-- model_info -->
+    <rect x="568" y="174" width="156" height="56" rx="8" fill="#FFFFFF" stroke="#5B6B73" stroke-width="1.5"/>
+    <text x="580" y="196" font-size="14" font-weight="800" fill="#475569">model_info</text>
+    <line x1="576" y1="204" x2="716" y2="204" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="580" y="220" font-size="11" fill="#5B6B73">id(PK) · version · map50</text>
+    <!-- grade_standard -->
+    <rect x="568" y="326" width="156" height="56" rx="8" fill="#FFFFFF" stroke="#F2811D" stroke-width="1.5"/>
+    <text x="580" y="348" font-size="14" font-weight="800" fill="#C2610A">grade_standard</text>
+    <line x1="576" y1="356" x2="716" y2="356" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="580" y="372" font-size="11" fill="#5B6B73">id(PK) · 阈值 · is_active</text>
+    <!-- price_reference -->
+    <rect x="568" y="468" width="156" height="56" rx="8" fill="#FFFFFF" stroke="#F2811D" stroke-width="1.5"/>
+    <text x="580" y="490" font-size="14" font-weight="800" fill="#C2610A">price_reference</text>
+    <line x1="576" y1="498" x2="716" y2="498" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="580" y="514" font-size="11" fill="#5B6B73">id(PK) · grade · price</text>
+  </g>
+  <text x="66" y="650" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">E-R 图（实体关系）· 主键统一 id BIGINT，均含 created_at / updated_at</text>
+
+  <!-- ==================== Result fields table ==================== -->
+  <g id="fields">
+    <rect x="790" y="150" width="425" height="468" rx="12" fill="#F4F7F6"/>
+    <use data-icon="tabler-outline/table" x="812" y="170" width="26" height="26" fill="#0E7C66"/>
+    <text x="846" y="190" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#1F2A33">detection_result 核心字段</text>
+    <text x="812" y="216" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一次检测结果，承载等级与全部量化指标</text>
+
+    <g font-family="'Microsoft YaHei', Arial, sans-serif">
+      <rect x="812" y="234" width="381" height="50" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="256" font-size="14" font-weight="800" fill="#0A5A49">grade</text>
+      <text x="828" y="276" font-size="12" fill="#5B6B73">评定等级 ENUM(grade1/grade2/out)</text>
+
+      <rect x="812" y="290" width="381" height="44" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="312" font-size="14" font-weight="800" fill="#0A5A49">diameter_mm</text>
+      <text x="1177" y="312" text-anchor="end" font-size="12" fill="#5B6B73">果径估计</text>
+      <text x="828" y="328" font-size="11" fill="#94A3B8">DECIMAL(6,2)</text>
+
+      <rect x="812" y="340" width="381" height="44" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="362" font-size="14" font-weight="800" fill="#0A5A49">color_ratio</text>
+      <text x="1177" y="362" text-anchor="end" font-size="12" fill="#5B6B73">着色率 %</text>
+      <text x="828" y="378" font-size="11" fill="#94A3B8">DECIMAL(5,2)</text>
+
+      <rect x="812" y="390" width="381" height="44" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="412" font-size="14" font-weight="800" fill="#0A5A49">defect_ratio</text>
+      <text x="1177" y="412" text-anchor="end" font-size="12" fill="#5B6B73">缺陷面积占比 %</text>
+      <text x="828" y="428" font-size="11" fill="#94A3B8">DECIMAL(5,2)</text>
+
+      <rect x="812" y="440" width="381" height="44" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="462" font-size="14" font-weight="800" fill="#0A5A49">confidence</text>
+      <text x="1177" y="462" text-anchor="end" font-size="12" fill="#5B6B73">综合置信度</text>
+      <text x="828" y="478" font-size="11" fill="#94A3B8">DECIMAL(4,3)</text>
+
+      <rect x="812" y="490" width="381" height="44" rx="6" fill="#FFFFFF"/>
+      <text x="828" y="512" font-size="14" font-weight="800" fill="#0A5A49">ref_price</text>
+      <text x="1177" y="512" text-anchor="end" font-size="12" fill="#5B6B73">参考价 · annotated_path 标注图</text>
+      <text x="828" y="528" font-size="11" fill="#94A3B8">DECIMAL(8,2)</text>
+    </g>
+    <!-- relation summary -->
+    <rect x="812" y="546" width="381" height="56" rx="8" fill="#0E7C66" fill-opacity="0.07"/>
+    <use data-icon="tabler-outline/link-plus" x="824" y="560" width="22" height="22" fill="#0E7C66"/>
+    <text x="852" y="570" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" fill="#1F2A33">task 1—N result · result 1—N defect</text>
+    <text x="852" y="590" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" fill="#1F2A33">sample 1—1 trace · task N—1 model</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="694" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">13 / 18</text>
+  </g>
+</svg>

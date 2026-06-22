@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,48 H63 A3,3 0 0 1 66,51 V105 A3,3 0 0 1 63,108 H63 A3,3 0 0 1 60,105 V51 A3,3 0 0 1 63,48 Z" />
+    <text x="82" y="86" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">选题意义与"为什么是柑橘"</text>
+    <text x="84" y="116" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">五候选 × 五维度可行性评分——经过权衡的工程决策，柑橘综合最优、锁定单一品类</text>
+  </g>
+
+  
+  <g id="table">
+    
+    <text x="80" y="200" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73" letter-spacing="1">候选对象</text>
+    <text x="335" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">地方特色</text>
+    <text x="485" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">缺陷维度</text>
+    <text x="635" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">形态/分割</text>
+    <text x="785" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">分级直观</text>
+    <text x="935" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">数据可得</text>
+    <text x="1130" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#5B6B73">评价</text>
+    <line x1="60" y1="212" x2="1215" y2="212" stroke="#1F2A33" stroke-width="2" />
+
+    
+    <path fill="#0E7C66" fill-opacity="0.08" d="M68,220 H1207 A8,8 0 0 1 1215,228 V274 A8,8 0 0 1 1207,282 H68 A8,8 0 0 1 60,274 V228 A8,8 0 0 1 68,220 Z" />
+
+    
+    <g id="row-citrus">
+      
+  <g transform="translate(80.0, 239.0) scale(0.9166666666666666)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M5 21c.5 -4.5 2.5 -8 7 -10" />
+    <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3l.014 0" />
+  </g>
+      <text x="110" y="257" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="800" fill="#0A5A49">柑橘（砂糖橘/贡柑）</text>
+      <circle cx="335" cy="251" r="11" fill="#0E7C66" />
+      <circle cx="485" cy="251" r="11" fill="#0E7C66" />
+      <circle cx="635" cy="251" r="11" fill="#0E7C66" />
+      <circle cx="785" cy="251" r="11" fill="#0E7C66" />
+      <circle cx="935" cy="251" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 935 240 A 11 11 0 0 1 935 262 Z" fill="#0E7C66" />
+      <path fill="#2E9E5B" d="M1072,237 H1188 A14,14 0 0 1 1202,251 V251 A14,14 0 0 1 1188,265 H1072 A14,14 0 0 1 1058,251 V251 A14,14 0 0 1 1072,237 Z" />
+      <text x="1130" y="256" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">✓ 首选</text>
+    </g>
+
+    
+    <g id="row-apple">
+      <text x="80" y="335" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2A33">苹果</text>
+      <circle cx="335" cy="329" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 335 329 L 335 318 A 11 11 0 0 1 346 329 Z" fill="#334155" />
+      <circle cx="485" cy="329" r="11" fill="#334155" />
+      <circle cx="635" cy="329" r="11" fill="#334155" />
+      <circle cx="785" cy="329" r="11" fill="#334155" />
+      <circle cx="935" cy="329" r="11" fill="#334155" />
+      <text x="1130" y="334" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">备选数据源</text>
+    </g>
+    <line x1="60" y1="364" x2="1215" y2="364" stroke="#E2E8E9" stroke-width="1" />
+
+    
+    <g id="row-banana">
+      <text x="80" y="405" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2A33">香蕉</text>
+      <circle cx="335" cy="399" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 335 388 A 11 11 0 0 1 335 410 Z" fill="#334155" />
+      <circle cx="485" cy="399" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 485 399 L 485 388 A 11 11 0 0 1 496 399 Z" fill="#334155" />
+      <circle cx="635" cy="399" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 635 388 A 11 11 0 0 1 635 410 Z" fill="#334155" />
+      <circle cx="785" cy="399" r="11" fill="#334155" />
+      <circle cx="935" cy="399" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 935 388 A 11 11 0 0 1 935 410 Z" fill="#334155" />
+      <text x="1130" y="404" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缺陷撑不起</text>
+    </g>
+    <line x1="60" y1="434" x2="1215" y2="434" stroke="#E2E8E9" stroke-width="1" />
+
+    
+    <g id="row-tomato">
+      <text x="80" y="475" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2A33">番茄</text>
+      <circle cx="335" cy="469" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 335 469 L 335 458 A 11 11 0 0 1 346 469 Z" fill="#334155" />
+      <circle cx="485" cy="469" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 485 458 A 11 11 0 0 1 485 480 Z" fill="#334155" />
+      <circle cx="635" cy="469" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 635 458 A 11 11 0 0 1 635 480 Z" fill="#334155" />
+      <circle cx="785" cy="469" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 785 458 A 11 11 0 0 1 785 480 Z" fill="#334155" />
+      <circle cx="935" cy="469" r="11" fill="#334155" />
+      <text x="1130" y="474" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">扩展验证对象</text>
+    </g>
+    <line x1="60" y1="504" x2="1215" y2="504" stroke="#E2E8E9" stroke-width="1" />
+
+    
+    <g id="row-leafy">
+      <text x="80" y="545" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2A33">叶菜蔬菜</text>
+      <circle cx="335" cy="539" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 335 528 A 11 11 0 0 1 335 550 Z" fill="#334155" />
+      <circle cx="485" cy="539" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 485 539 L 485 528 A 11 11 0 0 1 496 539 Z" fill="#334155" />
+      <circle cx="635" cy="539" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 635 539 L 635 528 A 11 11 0 0 1 646 539 Z" fill="#334155" />
+      <circle cx="785" cy="539" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 785 539 L 785 528 A 11 11 0 0 1 796 539 Z" fill="#334155" />
+      <circle cx="935" cy="539" r="11" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 935 539 L 935 528 A 11 11 0 0 1 946 539 Z" fill="#334155" />
+      <path fill="#E0544A" fill-opacity="0.14" d="M1072,525 H1188 A14,14 0 0 1 1202,539 V539 A14,14 0 0 1 1188,553 H1072 A14,14 0 0 1 1058,539 V539 A14,14 0 0 1 1072,525 Z" />
+      <text x="1130" y="544" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2410C">✕ 风险高</text>
+    </g>
+  </g>
+
+  
+  <g id="legend">
+    <text x="60" y="592" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="700" fill="#94A3B8">评分：</text>
+    <circle cx="118" cy="587" r="9" fill="#334155" />
+    <text x="132" y="592" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">强 ★★★</text>
+    <circle cx="208" cy="587" r="9" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 208 576 A 9 9 0 0 1 208 598 Z" fill="#334155" />
+    <text x="222" y="592" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">中 ★★</text>
+    <circle cx="298" cy="587" r="9" fill="none" stroke="#CBD5E1" stroke-width="2" /><path d="M 298 587 L 298 578 A 9 9 0 0 1 307 587 Z" fill="#334155" />
+    <text x="312" y="592" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">弱 ★</text>
+  </g>
+  <g id="takeaway">
+    <path fill="#0E7C66" fill-opacity="0.08" d="M70,606 H1205 A10,10 0 0 1 1215,616 V644 A10,10 0 0 1 1205,654 H70 A10,10 0 0 1 60,644 V616 A10,10 0 0 1 70,606 Z" />
+    
+  <g transform="translate(80.0, 618.0)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="114" y="635" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#1F2A33">关键理由：题目示例<tspan font-weight="700" fill="#0A5A49">首位即柑橘</tspan> + 肇庆地方特色加分；近圆形易检测、缺陷类型丰富、着色率可解释——数据短板由三源混合解决</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">04 / 18</text>
+  </g>
+</svg>

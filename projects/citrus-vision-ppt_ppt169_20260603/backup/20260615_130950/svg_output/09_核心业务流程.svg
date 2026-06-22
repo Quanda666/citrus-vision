@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="aFlow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="40" width="6" height="54" rx="3" fill="#0E7C66"/>
+    <text x="82" y="74" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="800" fill="#1F2A33">核心业务流程：上传 → 检测结果输出</text>
+    <text x="84" y="102" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">四角色协同的端到端主流程——后端只编排不推理，算法拆为独立服务</text>
+  </g>
+
+  <!-- ==================== Swimlanes ==================== -->
+  <g id="lanes">
+    <rect x="60" y="156" width="1155" height="102" fill="#F4F7F6"/>
+    <rect x="60" y="258" width="1155" height="102" fill="#FFFFFF"/>
+    <rect x="60" y="360" width="1155" height="102" fill="#FFF7F0"/>
+    <rect x="60" y="462" width="1155" height="102" fill="#F4F7F6"/>
+    <rect x="60" y="156" width="1155" height="408" fill="none" stroke="#E2E8E9" stroke-width="1.5"/>
+    <line x1="180" y1="156" x2="180" y2="564" stroke="#E2E8E9" stroke-width="1.5"/>
+    <!-- lane labels -->
+    <use data-icon="tabler-outline/device-mobile" x="78" y="194" width="24" height="24" fill="#0E7C66"/>
+    <text x="120" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">用户/前端</text>
+    <use data-icon="tabler-outline/server" x="78" y="296" width="24" height="24" fill="#0A5A49"/>
+    <text x="120" y="305" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">后端 API</text>
+    <use data-icon="tabler-outline/cpu" x="78" y="398" width="24" height="24" fill="#F2811D"/>
+    <text x="120" y="407" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">算法服务</text>
+    <use data-icon="tabler-outline/database" x="78" y="500" width="24" height="24" fill="#5B6B73"/>
+    <text x="120" y="509" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#5B6B73">数据库</text>
+  </g>
+
+  <!-- ==================== Arrows ==================== -->
+  <g id="arrows" fill="none" stroke="#94A3B8" stroke-width="2">
+    <path d="M 340 207 H 358 V 309 H 368" marker-end="url(#aFlow)"/>
+    <path d="M 542 309 H 560 V 411 H 572" marker-end="url(#aFlow)"/>
+    <path d="M 876 411 H 894 V 309 H 906" marker-end="url(#aFlow)"/>
+    <path d="M 1000 280 V 240" marker-end="url(#aFlow)"/>
+    <path d="M 457 340 V 480" marker-end="url(#aFlow)"/>
+    <path d="M 1000 340 V 480" marker-end="url(#aFlow)"/>
+  </g>
+
+  <!-- ==================== Nodes ==================== -->
+  <g id="nodes">
+    <!-- ① -->
+    <rect x="186" y="178" width="154" height="58" rx="8" fill="#0E7C66" fill-opacity="0.10" stroke="#0E7C66" stroke-width="1.5"/>
+    <text x="200" y="204" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">① 登录 · 上传图片</text>
+    <text x="200" y="224" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">拖拽 / 拍照 / 批量</text>
+    <!-- ② -->
+    <rect x="372" y="280" width="170" height="58" rx="8" fill="#0A5A49" fill-opacity="0.10" stroke="#0A5A49" stroke-width="1.5"/>
+    <text x="386" y="306" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">② 校验存图 · 建样本</text>
+    <text x="386" y="326" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">创建检测任务（processing）</text>
+    <!-- ③④ algorithm -->
+    <rect x="572" y="382" width="304" height="58" rx="8" fill="#F2811D" fill-opacity="0.12" stroke="#F2811D" stroke-width="1.5"/>
+    <text x="588" y="408" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#C2610A">③ 调 /infer（算法五步管线）</text>
+    <text x="588" y="428" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">预处理 → 分割 → YOLOv8 → 特征 → 规则分级</text>
+    <!-- ⑤ -->
+    <rect x="908" y="280" width="184" height="58" rx="8" fill="#0A5A49" fill-opacity="0.10" stroke="#0A5A49" stroke-width="1.5"/>
+    <text x="922" y="306" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">⑤ 写结果 + 缺陷标签</text>
+    <text x="922" y="326" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">关联价格/溯源 · task=done</text>
+    <!-- ⑥ -->
+    <rect x="908" y="178" width="184" height="58" rx="8" fill="#0E7C66" fill-opacity="0.10" stroke="#0E7C66" stroke-width="1.5"/>
+    <text x="922" y="204" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#0A5A49">⑥ 渲染结果</text>
+    <text x="922" y="224" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">标注图+等级+缺陷 → 溯源/导出</text>
+    <!-- DB1 -->
+    <rect x="372" y="484" width="170" height="56" rx="8" fill="#5B6B73" fill-opacity="0.10" stroke="#5B6B73" stroke-width="1.5"/>
+    <text x="457" y="517" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569">样本 / 任务记录</text>
+    <!-- DB2 -->
+    <rect x="908" y="484" width="184" height="56" rx="8" fill="#5B6B73" fill-opacity="0.10" stroke="#5B6B73" stroke-width="1.5"/>
+    <text x="1000" y="517" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569">结果 / 缺陷 / 溯源</text>
+  </g>
+
+  <!-- ==================== Takeaway ==================== -->
+  <g id="takeaway">
+    <rect x="60" y="586" width="1155" height="52" rx="10" fill="#F2811D" fill-opacity="0.08"/>
+    <use data-icon="tabler-outline/git-branch" x="80" y="599" width="24" height="24" fill="#F2811D"/>
+    <text x="114" y="618" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">设计要点：后端<tspan font-weight="700" fill="#C2610A">只编排不推理</tspan>，通过内部 HTTP 调用算法服务——<tspan font-weight="700" fill="#0A5A49">解耦、可替换模型、便于 4 人并行</tspan>；辅助流程：管理员维护标准/价格/模型，写操作均记入日志</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">09 / 18</text>
+  </g>
+</svg>

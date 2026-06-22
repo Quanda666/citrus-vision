@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="44" width="6" height="56" rx="3" fill="#0E7C66"/>
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">目标用户与使用场景</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">服务三类角色——把抽象功能落到具体的人与具体的操作上</text>
+  </g>
+
+  <!-- ==================== Card 1: 普通用户 ==================== -->
+  <g id="card-user">
+    <rect x="60" y="170" width="373" height="300" rx="20" fill="#F4F7F6"/>
+    <path d="M 151 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#0E7C66"/>
+    <text x="246" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">普通用户</text>
+    <rect x="78" y="238" width="337" height="216" rx="12" fill="#FFFFFF"/>
+    <use data-icon="tabler-outline/user-circle" x="94" y="256" width="30" height="30" fill="#0E7C66"/>
+    <text x="132" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">分拣员 / 合作社质检员</text>
+    <line x1="94" y1="296" x2="399" y2="296" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="94" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型场景</text>
+    <text x="94" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">收果初分、电商上架前分级</text>
+    <text x="94" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型流程</text>
+    <circle cx="98" cy="401" r="2.5" fill="#F2811D"/><text x="110" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登录 → 拍照 / 上传图片</text>
+    <circle cx="98" cy="425" r="2.5" fill="#F2811D"/><text x="110" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">查看等级徽章与缺陷红框</text>
+    <circle cx="98" cy="449" r="2.5" fill="#F2811D"/><text x="110" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登记溯源 → 导出报告</text>
+  </g>
+
+  <!-- ==================== Card 2: 管理员 ==================== -->
+  <g id="card-admin">
+    <rect x="453" y="170" width="373" height="300" rx="20" fill="#F4F7F6"/>
+    <path d="M 544 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#0A5A49"/>
+    <text x="639" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">管理员 / 技术员</text>
+    <rect x="471" y="238" width="337" height="216" rx="12" fill="#FFFFFF"/>
+    <use data-icon="tabler-outline/settings" x="487" y="256" width="30" height="30" fill="#0A5A49"/>
+    <text x="525" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">系统维护者</text>
+    <line x1="487" y1="296" x2="792" y2="296" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="487" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型场景</text>
+    <text x="487" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">维护标准、管理数据与模型</text>
+    <text x="487" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型流程</text>
+    <circle cx="491" cy="401" r="2.5" fill="#F2811D"/><text x="503" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">维护分级标准 / 价格</text>
+    <circle cx="491" cy="425" r="2.5" fill="#F2811D"/><text x="503" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">管理样本库 → 切换模型</text>
+    <circle cx="491" cy="449" r="2.5" fill="#F2811D"/><text x="503" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">查看操作日志与统计看板</text>
+  </g>
+
+  <!-- ==================== Card 3: 评委/观众 ==================== -->
+  <g id="card-judge">
+    <rect x="846" y="170" width="373" height="300" rx="20" fill="#F4F7F6"/>
+    <path d="M 937 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#F2811D"/>
+    <text x="1032" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">老师 / 同学</text>
+    <rect x="864" y="238" width="337" height="216" rx="12" fill="#FFFFFF"/>
+    <use data-icon="tabler-outline/users" x="880" y="256" width="30" height="30" fill="#F2811D"/>
+    <text x="918" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">间接用户（课堂演示）</text>
+    <line x1="880" y1="296" x2="1185" y2="296" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="880" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">典型场景</text>
+    <text x="880" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">课堂汇报现场演示</text>
+    <text x="880" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">关注点</text>
+    <circle cx="884" cy="401" r="2.5" fill="#0E7C66"/><text x="896" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">实拍秒级检测效果</text>
+    <circle cx="884" cy="425" r="2.5" fill="#0E7C66"/><text x="896" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">批量处理与统计图表</text>
+    <circle cx="884" cy="449" r="2.5" fill="#0E7C66"/><text x="896" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一键报告导出</text>
+  </g>
+
+  <!-- ==================== Journey bar ==================== -->
+  <g id="journey">
+    <rect x="60" y="498" width="1155" height="140" rx="14" fill="#0E7C66" fill-opacity="0.06"/>
+    <rect x="60" y="498" width="6" height="140" rx="3" fill="#F2811D"/>
+    <text x="88" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0A5A49">主场景 · 质检员现场使用旅程</text>
+    <!-- arrows -->
+    <g stroke="#0E7C66" stroke-width="2" fill="none" stroke-opacity="0.5" stroke-linecap="round">
+      <path d="M 252 576 h 78 m -10 -6 l 10 6 l -10 6"/>
+      <path d="M 492 576 h 78 m -10 -6 l 10 6 l -10 6"/>
+      <path d="M 732 576 h 78 m -10 -6 l 10 6 l -10 6"/>
+      <path d="M 972 576 h 78 m -10 -6 l 10 6 l -10 6"/>
+    </g>
+    <!-- steps -->
+    <g id="j1"><circle cx="170" cy="576" r="26" fill="#0E7C66"/><use data-icon="tabler-outline/device-mobile" x="156" y="562" width="28" height="28" fill="#FFFFFF"/><text x="170" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">微信扫码进 H5</text></g>
+    <g id="j2"><circle cx="410" cy="576" r="26" fill="#0E7C66"/><use data-icon="tabler-outline/camera" x="396" y="562" width="28" height="28" fill="#FFFFFF"/><text x="410" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">拍照 / 批量上传</text></g>
+    <g id="j3"><circle cx="650" cy="576" r="26" fill="#0E7C66"/><use data-icon="tabler-outline/eye-check" x="636" y="562" width="28" height="28" fill="#FFFFFF"/><text x="650" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">秒级等级 + 缺陷</text></g>
+    <g id="j4"><circle cx="890" cy="576" r="26" fill="#0E7C66"/><use data-icon="tabler-outline/chart-bar" x="876" y="562" width="28" height="28" fill="#FFFFFF"/><text x="890" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">按等级计数 + 参考价</text></g>
+    <g id="j5"><circle cx="1130" cy="576" r="26" fill="#F2811D"/><use data-icon="tabler-outline/file-text" x="1116" y="562" width="28" height="28" fill="#FFFFFF"/><text x="1130" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">导出当批报告</text></g>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">06 / 18</text>
+  </g>
+</svg>

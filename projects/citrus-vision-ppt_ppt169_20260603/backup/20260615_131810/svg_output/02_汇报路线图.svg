@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="rail" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E7C66"/>
+      <stop offset="100%" stop-color="#F2811D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== Background ==================== -->
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="52" width="6" height="64" rx="3" fill="#0E7C66"/>
+    <text x="82" y="92" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">汇报路线图 · 六步讲清方案</text>
+    <text x="84" y="124" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">为什么做 → 做什么 → 怎么做 → 怎么推进 → 如何验证 → 预期结果，形成完整工程论证闭环</text>
+    <!-- right chip -->
+    <rect x="1040" y="58" width="160" height="56" rx="14" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1120" y="88" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="800" fill="#0E7C66">18<tspan font-size="15" dx="2">页</tspan></text>
+    <text x="1120" y="106" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#0A5A49" letter-spacing="1">约 10–12 分钟</text>
+  </g>
+
+  <!-- ==================== Timeline rail ==================== -->
+  <line x1="120" y1="195" x2="120" y2="585" stroke="url(#rail)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ==================== Item 01 ==================== -->
+  <g id="item-01">
+    <circle cx="120" cy="195" r="24" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+    <text x="120" y="202" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">01</text>
+    <use data-icon="tabler-outline/route" x="168" y="183" width="24" height="24" fill="#0E7C66"/>
+    <text x="202" y="190" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">为什么做 · 产业痛点与选题论证</text>
+    <text x="202" y="216" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">肇庆柑橘产业人工目检痛点，五维度论证"为什么是柑橘"</text>
+    <rect x="1030" y="178" width="150" height="34" rx="17" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1105" y="200" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">P03 – P04</text>
+  </g>
+
+  <!-- ==================== Item 02 ==================== -->
+  <g id="item-02">
+    <circle cx="120" cy="273" r="24" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+    <text x="120" y="280" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">02</text>
+    <use data-icon="tabler-outline/target" x="168" y="261" width="24" height="24" fill="#0E7C66"/>
+    <text x="202" y="268" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">做什么 · 定位 / 目标 / 用户 / 需求 / 功能</text>
+    <text x="202" y="294" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">系统定位与可量化目标、目标用户、需求分析与功能模块设计</text>
+    <rect x="1030" y="256" width="150" height="34" rx="17" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1105" y="278" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">P05 – P08</text>
+  </g>
+
+  <!-- ==================== Item 03 ==================== -->
+  <g id="item-03">
+    <circle cx="120" cy="351" r="24" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+    <text x="120" y="358" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">03</text>
+    <use data-icon="tabler-outline/cpu" x="168" y="339" width="24" height="24" fill="#0E7C66"/>
+    <text x="202" y="346" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">怎么做 · 技术 / 架构 / 算法 / 流程 / 数据库</text>
+    <text x="202" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">技术栈选型、四层架构、双引擎算法、业务流程与数据库设计</text>
+    <rect x="1030" y="334" width="150" height="34" rx="17" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1105" y="356" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">P09 – P13</text>
+  </g>
+
+  <!-- ==================== Item 04 ==================== -->
+  <g id="item-04">
+    <circle cx="120" cy="429" r="24" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+    <text x="120" y="436" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">04</text>
+    <use data-icon="tabler-outline/calendar-event" x="168" y="417" width="24" height="24" fill="#0E7C66"/>
+    <text x="202" y="424" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">怎么推进 · 实施计划与团队分工</text>
+    <text x="202" y="450" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">4 周里程碑计划、关键路径，4 人可追溯分工与协作机制</text>
+    <rect x="1030" y="412" width="150" height="34" rx="17" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1105" y="434" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">P14 – P15</text>
+  </g>
+
+  <!-- ==================== Item 05 ==================== -->
+  <g id="item-05">
+    <circle cx="120" cy="507" r="24" fill="#FFFFFF" stroke="#0E7C66" stroke-width="3"/>
+    <text x="120" y="514" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0E7C66">05</text>
+    <use data-icon="tabler-outline/clipboard-check" x="168" y="495" width="24" height="24" fill="#0E7C66"/>
+    <text x="202" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">如何验证 · 测试方案与验收标准</text>
+    <text x="202" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">五层测试矩阵、典型用例，可逐项核验的"完成定义"</text>
+    <rect x="1030" y="490" width="150" height="34" rx="17" fill="#0E7C66" fill-opacity="0.10"/>
+    <text x="1105" y="512" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">P16</text>
+  </g>
+
+  <!-- ==================== Item 06 (highlight) ==================== -->
+  <g id="item-06">
+    <circle cx="120" cy="585" r="26" fill="#F2811D"/>
+    <text x="120" y="592" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">06</text>
+    <use data-icon="tabler-outline/package" x="168" y="573" width="24" height="24" fill="#F2811D"/>
+    <text x="202" y="580" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="800" fill="#1F2A33">预期结果 · 创新亮点 / 风险 / 交付物<tspan dx="10" font-size="12" font-weight="800" fill="#F2811D">闭环收束</tspan></text>
+    <text x="202" y="606" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">差异化创新点、风险应对预案，与最终交付清单及总结答疑</text>
+    <rect x="1030" y="568" width="150" height="34" rx="17" fill="#F2811D" fill-opacity="0.14"/>
+    <text x="1105" y="590" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">P17 – P18</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <line x1="60" y1="660" x2="1220" y2="660" stroke="#E2E8E9" stroke-width="1"/>
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">02 / 18</text>
+  </g>
+</svg>

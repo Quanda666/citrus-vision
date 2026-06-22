@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,38 H63 A3,3 0 0 1 66,41 V87 A3,3 0 0 1 63,90 H63 A3,3 0 0 1 60,87 V41 A3,3 0 0 1 63,38 Z" />
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">创新亮点与风险应对</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">差异化创新主打『低风险、强演示』前三项，第四项作余力扩展；对周期 / 数据 / 算法 / 现场均有预案</text>
+  </g>
+
+  
+  <g id="label-innov">
+    
+  <g transform="translate(62.0, 116.0) scale(0.8333333333333334)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
+    <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+    <path d="M9.7 17l4.6 0" />
+  </g>
+    <text x="90" y="132" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">四大创新亮点</text>
+  </g>
+
+  
+  <g id="innov-1">
+    <path fill="#F4F7F6" d="M76,146 H316 A16,16 0 0 1 332,162 V352 A16,16 0 0 1 316,368 H76 A16,16 0 0 1 60,352 V162 A16,16 0 0 1 76,146 Z" />
+    <text x="308" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#0E7C66" fill-opacity="0.10">01</text>
+    <path fill="#0E7C66" fill-opacity="0.12" d="M98,168 H122 A14,14 0 0 1 136,182 V206 A14,14 0 0 1 122,220 H98 A14,14 0 0 1 84,206 V182 A14,14 0 0 1 98,168 Z" />
+    
+  <g transform="translate(98.0, 182.0)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="84" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">双引擎可解释分级</text>
+    <text x="84" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0E7C66" letter-spacing="0.5">量化指标 + DL 检测</text>
+    <text x="84" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">果径 / 着色率 / 缺陷占比 等</text>
+    <text x="84" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">量化依据 + YOLOv8 融合，</text>
+    <text x="84" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">分级<tspan font-weight="700" fill="#0A5A49">有据可查、非黑盒</tspan></text>
+  </g>
+
+  
+  <g id="innov-2">
+    <path fill="#F4F7F6" d="M372,146 H612 A16,16 0 0 1 628,162 V352 A16,16 0 0 1 612,368 H372 A16,16 0 0 1 356,352 V162 A16,16 0 0 1 372,146 Z" />
+    <text x="604" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#F2811D" fill-opacity="0.10">02</text>
+    <path fill="#F2811D" fill-opacity="0.12" d="M394,168 H418 A14,14 0 0 1 432,182 V206 A14,14 0 0 1 418,220 H394 A14,14 0 0 1 380,206 V182 A14,14 0 0 1 394,168 Z" />
+    
+  <g transform="translate(394.0, 182.0)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M12 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 6l8 0" />
+    <path d="M16 6l4 0" />
+    <path d="M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 12l2 0" />
+    <path d="M10 12l10 0" />
+    <path d="M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 18l11 0" />
+    <path d="M19 18l1 0" />
+  </g>
+    <text x="380" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">标准可配置 · 模板化</text>
+    <text x="380" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#C2610A" letter-spacing="0.5">在线调阈值，不动代码</text>
+    <text x="380" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">内置砂糖橘 / 贡柑分级模板，</text>
+    <text x="380" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">管理员可在线调整阈值，</text>
+    <text x="380" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">标准<tspan font-weight="700" fill="#0A5A49">独立成表可维护</tspan></text>
+  </g>
+
+  
+  <g id="innov-3">
+    <path fill="#F4F7F6" d="M668,146 H908 A16,16 0 0 1 924,162 V352 A16,16 0 0 1 908,368 H668 A16,16 0 0 1 652,352 V162 A16,16 0 0 1 668,146 Z" />
+    <text x="900" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#0A5A49" fill-opacity="0.10">03</text>
+    <path fill="#0A5A49" fill-opacity="0.12" d="M690,168 H714 A14,14 0 0 1 728,182 V206 A14,14 0 0 1 714,220 H690 A14,14 0 0 1 676,206 V182 A14,14 0 0 1 690,168 Z" />
+    
+  <g transform="translate(690.0, 182.0)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 17l0 .01" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 7l0 .01" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M17 7l0 .01" />
+    <path d="M14 14l3 0" />
+    <path d="M20 14l0 .01" />
+    <path d="M14 14l0 3" />
+    <path d="M14 20l3 0" />
+    <path d="M17 17l3 0" />
+    <path d="M20 17l0 3" />
+  </g>
+    <text x="676" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">溯源码 + 价格联动</text>
+    <text x="676" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49" letter-spacing="0.5">一键生成溯源报告</text>
+    <text x="676" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">结果一键生成可扫码溯源</text>
+    <text x="676" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">报告，并按等级<tspan font-weight="700" fill="#0A5A49">联动</tspan></text>
+    <text x="676" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73"><tspan font-weight="700" fill="#0A5A49">参考价格</tspan>，闭环到应用</text>
+  </g>
+
+  
+  <g id="innov-4">
+    <path fill="#F4F7F6" d="M964,146 H1204 A16,16 0 0 1 1220,162 V352 A16,16 0 0 1 1204,368 H964 A16,16 0 0 1 948,352 V162 A16,16 0 0 1 964,146 Z" />
+    <text x="1196" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#2E9E5B" fill-opacity="0.10">04</text>
+    <path fill="#2E9E5B" fill-opacity="0.12" d="M986,168 H1010 A14,14 0 0 1 1024,182 V206 A14,14 0 0 1 1010,220 H986 A14,14 0 0 1 972,206 V182 A14,14 0 0 1 986,168 Z" />
+    
+  <g transform="translate(986.0, 182.0)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M12 6l-8 4l8 4l8 -4l-8 -4" />
+    <path d="M4 14l8 4l8 -4" />
+  </g>
+    <path fill="#2E9E5B" fill-opacity="0.15" d="M1131,172 H1185 A11,11 0 0 1 1196,183 V183 A11,11 0 0 1 1185,194 H1131 A11,11 0 0 1 1120,183 V183 A11,11 0 0 1 1131,172 Z" />
+    <text x="1158" y="187" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#1F7A45">余力扩展</text>
+    <text x="972" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">多品类可扩展</text>
+    <text x="972" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F7A45" letter-spacing="0.5">架构留扩展位</text>
+    <text x="972" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">用公开苹果 / 番茄数据集</text>
+    <text x="972" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">做对照，验证<tspan font-weight="700" fill="#0A5A49">可扩展性</tspan>，</text>
+    <text x="972" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">不挤占核心交付</text>
+  </g>
+
+  
+  <g id="risk" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <path fill="#F4F7F6" d="M74,388 H1206 A14,14 0 0 1 1220,402 V636 A14,14 0 0 1 1206,650 H74 A14,14 0 0 1 60,636 V402 A14,14 0 0 1 74,388 Z" />
+    
+  <g transform="translate(84.0, 406.0) scale(0.9166666666666666)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="114" y="423" font-size="16" font-weight="800" fill="#1F2A33">风险识别与应对 · 想在前面、有备而来</text>
+    <text x="430" y="423" font-size="12" fill="#94A3B8">影响等级：</text>
+    <circle cx="500" cy="418" r="5" fill="#E0544A" /><text x="510" y="423" font-size="12" fill="#5B6B73">高</text>
+    <circle cx="540" cy="418" r="5" fill="#F2811D" /><text x="550" y="423" font-size="12" fill="#5B6B73">中</text>
+    <circle cx="580" cy="418" r="5" fill="#2E9E5B" /><text x="590" y="423" font-size="12" fill="#5B6B73">低（均已降级）</text>
+
+    
+    
+    <g id="risk-1">
+      <path fill="#FFFFFF" d="M96,446 H334 A12,12 0 0 1 346,458 V618 A12,12 0 0 1 334,630 H96 A12,12 0 0 1 84,618 V458 A12,12 0 0 1 96,446 Z" />
+      <circle cx="106" cy="476" r="6" fill="#F2811D" />
+      <text x="120" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">数据不足</text>
+      <path fill="#F2811D" fill-opacity="0.12" d="M287,466 H313 A11,11 0 0 1 324,477 V477 A11,11 0 0 1 313,488 H287 A11,11 0 0 1 276,477 V477 A11,11 0 0 1 287,466 Z" />
+      <text x="300" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#C2610A">影响中</text>
+      <line x1="104" y1="500" x2="326" y2="500" stroke="#E2E8E9" stroke-width="1" />
+      
+  <g transform="translate(100.0, 514.0) scale(0.75)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+      <text x="124" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="104" y="556" font-size="12.5" fill="#5B6B73">公开数据集打底，</text>
+      <text x="104" y="578" font-size="12.5" fill="#5B6B73">Roboflow 加速标注，</text>
+      <text x="104" y="600" font-size="12.5" fill="#5B6B73">三源混合凑演示规模</text>
+    </g>
+    
+    <g id="risk-2">
+      <path fill="#FFFFFF" d="M374,446 H612 A12,12 0 0 1 624,458 V618 A12,12 0 0 1 612,630 H374 A12,12 0 0 1 362,618 V458 A12,12 0 0 1 374,446 Z" />
+      <circle cx="384" cy="476" r="6" fill="#F2811D" />
+      <text x="398" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">模型不稳</text>
+      <path fill="#F2811D" fill-opacity="0.12" d="M565,466 H591 A11,11 0 0 1 602,477 V477 A11,11 0 0 1 591,488 H565 A11,11 0 0 1 554,477 V477 A11,11 0 0 1 565,466 Z" />
+      <text x="578" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#C2610A">影响中</text>
+      <line x1="382" y1="500" x2="604" y2="500" stroke="#E2E8E9" stroke-width="1" />
+      
+  <g transform="translate(378.0, 514.0) scale(0.75)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+      <text x="402" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="382" y="556" font-size="12.5" fill="#5B6B73">传统 CV 量化分级</text>
+      <text x="382" y="578" font-size="12.5" fill="#5B6B73">兜底，DL 欠佳也能</text>
+      <text x="382" y="600" font-size="12.5" fill="#5B6B73">保证系统可用</text>
+    </g>
+    
+    <g id="risk-3">
+      <path fill="#FFFFFF" d="M652,446 H890 A12,12 0 0 1 902,458 V618 A12,12 0 0 1 890,630 H652 A12,12 0 0 1 640,618 V458 A12,12 0 0 1 652,446 Z" />
+      <circle cx="662" cy="476" r="6" fill="#2E9E5B" />
+      <text x="676" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">无 GPU</text>
+      <path fill="#2E9E5B" fill-opacity="0.14" d="M843,466 H869 A11,11 0 0 1 880,477 V477 A11,11 0 0 1 869,488 H843 A11,11 0 0 1 832,477 V477 A11,11 0 0 1 843,466 Z" />
+      <text x="856" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#1F7A45">影响低</text>
+      <line x1="660" y1="500" x2="882" y2="500" stroke="#E2E8E9" stroke-width="1" />
+      
+  <g transform="translate(656.0, 514.0) scale(0.75)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+      <text x="680" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="660" y="556" font-size="12.5" fill="#5B6B73">免费云 GPU（Colab /</text>
+      <text x="660" y="578" font-size="12.5" fill="#5B6B73">AI Studio），轻量</text>
+      <text x="660" y="600" font-size="12.5" fill="#5B6B73">模型 YOLOv8n 可推理</text>
+    </g>
+    
+    <g id="risk-4">
+      <path fill="#FFFFFF" d="M930,446 H1168 A12,12 0 0 1 1180,458 V618 A12,12 0 0 1 1168,630 H930 A12,12 0 0 1 918,618 V458 A12,12 0 0 1 930,446 Z" />
+      <circle cx="940" cy="476" r="6" fill="#2E9E5B" />
+      <text x="954" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">现场故障</text>
+      <path fill="#2E9E5B" fill-opacity="0.14" d="M1121,466 H1147 A11,11 0 0 1 1158,477 V477 A11,11 0 0 1 1147,488 H1121 A11,11 0 0 1 1110,477 V477 A11,11 0 0 1 1121,466 Z" />
+      <text x="1134" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#1F7A45">影响低</text>
+      <line x1="938" y1="500" x2="1160" y2="500" stroke="#E2E8E9" stroke-width="1" />
+      
+  <g transform="translate(934.0, 514.0) scale(0.75)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+      <text x="958" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="938" y="556" font-size="12.5" fill="#5B6B73">预录演示视频，现场</text>
+      <text x="938" y="578" font-size="12.5" fill="#5B6B73">实拍 + 录播双保险，</text>
+      <text x="938" y="600" font-size="12.5" fill="#5B6B73">确保万无一失</text>
+    </g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="690" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="690" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">17 / 18</text>
+  </g>
+</svg>

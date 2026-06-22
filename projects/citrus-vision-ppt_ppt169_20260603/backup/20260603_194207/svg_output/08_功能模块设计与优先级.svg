@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="coreGrad" cx="38%" cy="32%" r="80%">
+      <stop offset="0%" stop-color="#13957C"/>
+      <stop offset="100%" stop-color="#0A5A49"/>
+    </radialGradient>
+    <filter id="coreShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="o"/>
+      <feFlood flood-color="#0A5A49" flood-opacity="0.30" result="c"/>
+      <feComposite in="c" in2="o" operator="in" result="s"/>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="44" width="6" height="56" rx="3" fill="#0E7C66"/>
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">功能模块设计与优先级</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">12 大模块按 P0 / P1 / P2 分级——先保 MVP 闭环，再向外加分，优先级即风险管理</text>
+  </g>
+
+  <!-- ==================== Concentric circles ==================== -->
+  <g id="bullseye">
+    <circle cx="400" cy="402" r="232" fill="#0E7C66" fill-opacity="0.05" stroke="#CFE3DD" stroke-width="1.5"/>
+    <circle cx="400" cy="402" r="158" fill="#0E7C66" fill-opacity="0.12" stroke="#A9D2C8" stroke-width="1.5"/>
+    <circle cx="400" cy="402" r="88" fill="url(#coreGrad)" filter="url(#coreShadow)"/>
+    <!-- core text -->
+    <text x="400" y="392" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">P0</text>
+    <text x="400" y="418" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#BFE6D9">MVP 核心闭环</text>
+    <!-- ring labels -->
+    <circle cx="400" cy="270" r="4" fill="#2E9E5B"/>
+    <text x="400" y="296" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#2E9E5B" letter-spacing="1">P1 加分应做</text>
+    <circle cx="400" cy="195" r="4" fill="#94A3B8"/>
+    <text x="400" y="221" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#94A3B8" letter-spacing="1">P2 有余力扩展</text>
+    <text x="400" y="660" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">越靠近内核 → 优先级越高、越先实现</text>
+  </g>
+
+  <!-- ==================== Tier cards ==================== -->
+  <g id="tier-p0">
+    <rect x="790" y="162" width="425" height="142" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1"/>
+    <rect x="790" y="162" width="6" height="142" rx="3" fill="#0E7C66"/>
+    <text x="814" y="194" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#0E7C66" letter-spacing="1">P0 · MVP 必做</text>
+    <text x="814" y="220" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#1F2A33">核心检测闭环</text>
+    <text x="1190" y="206" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="40" font-weight="800" fill="#0E7C66" fill-opacity="0.18">8</text>
+    <text x="814" y="252" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登录鉴权 · 图像上传 · 图像预处理 · 缺陷检测</text>
+    <text x="814" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">品质分级 · 结果可视化 · 记录入库 · 统计看板</text>
+  </g>
+  <g id="tier-p1">
+    <rect x="790" y="314" width="425" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1"/>
+    <rect x="790" y="314" width="6" height="120" rx="3" fill="#2E9E5B"/>
+    <text x="814" y="346" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#2E9E5B" letter-spacing="1">P1 · 加分应做</text>
+    <text x="814" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#1F2A33">业务增值功能</text>
+    <text x="1190" y="358" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="40" font-weight="800" fill="#2E9E5B" fill-opacity="0.18">4</text>
+    <text x="814" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">溯源二维码 · 价格参考 · PDF/Excel 导出 · 样本/日志</text>
+  </g>
+  <g id="tier-p2">
+    <rect x="790" y="444" width="425" height="120" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <rect x="790" y="444" width="6" height="120" rx="3" fill="#94A3B8"/>
+    <text x="814" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="800" fill="#94A3B8" letter-spacing="1">P2 · 有余力扩展</text>
+    <text x="814" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#334155">增强与扩展</text>
+    <text x="1190" y="488" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="40" font-weight="800" fill="#94A3B8" fill-opacity="0.20">4</text>
+    <text x="814" y="536" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">模型版本切换 · 人工复核 · 多品类对照 · 缺陷热力图</text>
+  </g>
+
+  <!-- ==================== Takeaway ==================== -->
+  <g id="takeaway">
+    <rect x="790" y="582" width="425" height="58" rx="10" fill="#F2811D" fill-opacity="0.08"/>
+    <use data-icon="tabler-outline/bulb" x="808" y="598" width="26" height="26" fill="#F2811D"/>
+    <text x="844" y="608" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">取舍原则</text>
+    <text x="844" y="630" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">先保 P0 闭环，P1 有余力做，P2 可砍——任何进度都能交出可演示系统</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">08 / 18</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(/c/Python313/python -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(/c/Python313/python -c \"import openpyxl; print\\('openpyxl OK'\\)\")",
+      "Bash(/c/Python313/python)"
+    ]
+  }
+}

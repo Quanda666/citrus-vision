@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="thanksGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7C66" />
+      <stop offset="100%" stop-color="#0A5A49" />
+    </linearGradient>
+    <radialGradient id="thanksDecor" cx="88%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#F2811D" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#F2811D" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,44 H63 A3,3 0 0 1 66,47 V97 A3,3 0 0 1 63,100 H63 A3,3 0 0 1 60,97 V47 A3,3 0 0 1 63,44 Z" />
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">预期成果 · 总结 · 答疑</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">以规范的软件工程过程，交付一个完整、可演示、可追溯的柑橘品质分级系统</text>
+  </g>
+
+  
+  <g id="deliverables" font-family="'Microsoft YaHei', Arial, sans-serif">
+    
+  <g transform="translate(60.0, 148.0)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+    <path d="M12 12l8 -4.5" />
+    <path d="M12 12l0 9" />
+    <path d="M12 12l-8 -4.5" />
+    <path d="M16 5.25l-8 4.5" />
+  </g>
+    <text x="92" y="167" font-size="19" font-weight="800" fill="#1F2A33">交付物清单</text>
+
+    
+  <g transform="translate(62.0, 200.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="215" font-size="15" fill="#1F2A33">课程设计报告（含任务书）</text>
+    
+  <g transform="translate(62.0, 238.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="253" font-size="15" fill="#1F2A33">演示视频（<tspan font-weight="700" fill="#C2610A">≤ 50M</tspan>）</text>
+    
+  <g transform="translate(62.0, 276.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="291" font-size="15" fill="#1F2A33">源码包（含注释）</text>
+    
+  <g transform="translate(62.0, 314.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="329" font-size="15" fill="#1F2A33">源代码文档</text>
+    
+  <g transform="translate(62.0, 352.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="367" font-size="15" fill="#1F2A33">数据库脚本</text>
+    
+  <g transform="translate(62.0, 390.0) scale(0.8333333333333334)" fill="none" stroke="#2E9E5B" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="92" y="405" font-size="15" fill="#1F2A33">测试材料（用例 / 报告）</text>
+
+    <path fill="#F2811D" fill-opacity="0.10" d="M77,432 H347 A15,15 0 0 1 362,447 V447 A15,15 0 0 1 347,462 H77 A15,15 0 0 1 62,447 V447 A15,15 0 0 1 77,432 Z" />
+    
+  <g transform="translate(74.0, 439.0) scale(0.6666666666666666)" fill="none" stroke="#C2610A" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 9l1 0" />
+    <path d="M9 13l6 0" />
+    <path d="M9 17l6 0" />
+  </g>
+    <text x="96" y="452" font-size="12.5" font-weight="700" fill="#C2610A">命名规范：第12组-《题目名》</text>
+  </g>
+
+  
+  <line x1="640" y1="150" x2="640" y2="470" stroke="#E2E8E9" stroke-width="1" />
+
+  
+  <g id="outcomes" font-family="'Microsoft YaHei', Arial, sans-serif">
+    
+    
+  <g transform="translate(672.0, 150.0) scale(0.9166666666666666)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 9l1 0" />
+    <path d="M9 13l6 0" />
+    <path d="M9 17l6 0" />
+  </g>
+    <text x="702" y="168" font-size="16" font-weight="800" fill="#1F2A33">文档成果</text>
+    <text x="672" y="196" font-size="13.5" fill="#5B6B73">用例图 · DFD · 数据字典 · 软件结构图 · E-R ·</text>
+    <text x="672" y="218" font-size="13.5" fill="#5B6B73">类图 · 时序 · 活动 · 状态图 —— <tspan font-weight="700" fill="#0A5A49">九类 UML 齐备</tspan></text>
+
+    
+    
+  <g transform="translate(672.0, 248.0) scale(0.9166666666666666)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="702" y="266" font-size="16" font-weight="800" fill="#1F2A33">系统成果</text>
+    <text x="672" y="294" font-size="13.5" fill="#5B6B73">可运行的<tspan font-weight="700" fill="#0A5A49">四层 Web 系统</tspan>，完成</text>
+    <text x="672" y="316" font-size="13.5" fill="#5B6B73">「上传 → 分级 → 缺陷 → 溯源 → 报表」闭环</text>
+  </g>
+
+  <g id="core-strategy" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <path fill="#0E7C66" fill-opacity="0.07" d="M684,344 H1208 A12,12 0 0 1 1220,356 V456 A12,12 0 0 1 1208,468 H684 A12,12 0 0 1 672,456 V356 A12,12 0 0 1 684,344 Z" />
+    <path fill="#F2811D" d="M675,344 H675 A3,3 0 0 1 678,347 V465 A3,3 0 0 1 675,468 H675 A3,3 0 0 1 672,465 V347 A3,3 0 0 1 675,344 Z" />
+    
+  <g transform="translate(694.0, 362.0) scale(0.9166666666666666)" fill="none" stroke="#C2610A" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g>
+    <text x="724" y="380" font-size="16" font-weight="800" fill="#0A5A49">核心策略</text>
+    <text x="694" y="412" font-size="14" fill="#1F2A33">文档与系统完整性<tspan font-weight="800" fill="#C2610A">吃满</tspan>（分析 24 + 设计 24 = <tspan font-weight="800" fill="#C2610A">48 分</tspan>）</text>
+    <text x="694" y="440" font-size="14" fill="#1F2A33">算法做到 <tspan font-weight="700" fill="#0A5A49">能演示、有兜底</tspan>，不追求 SOTA、稳交付</text>
+  </g>
+
+  
+  <g id="thanks">
+    <path fill="url(#thanksGrad)" d="M78,500 H1202 A18,18 0 0 1 1220,518 V642 A18,18 0 0 1 1202,660 H78 A18,18 0 0 1 60,642 V518 A18,18 0 0 1 78,500 Z" />
+    <path fill="url(#thanksDecor)" d="M78,500 H1202 A18,18 0 0 1 1220,518 V642 A18,18 0 0 1 1202,660 H78 A18,18 0 0 1 60,642 V518 A18,18 0 0 1 78,500 Z" />
+    
+  <g transform="translate(104.0, 556.0) scale(1.9166666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M5 21c.5 -4.5 2.5 -8 7 -10" />
+    <path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3l.014 0" />
+  </g>
+    <text x="170" y="576" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">谢谢聆听</text>
+    <text x="172" y="616" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" fill="#FFFFFF" fill-opacity="0.92">欢迎老师与同学提问 · Q&amp;A</text>
+    <line x1="640" y1="536" x2="640" y2="624" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1" />
+    <text x="690" y="558" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">CitrusVision · 第12组 · 题目10</text>
+    <text x="690" y="588" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.88">陈绍杰 · 黄权达 · 张嘉豪 · 黄浩然</text>
+    <text x="690" y="612" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.88">23本科计科1班 · 2026-06</text>
+    
+  <g transform="translate(1140.0, 528.0) scale(1.6666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="700" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">18 / 18</text>
+  </g>
+</svg>

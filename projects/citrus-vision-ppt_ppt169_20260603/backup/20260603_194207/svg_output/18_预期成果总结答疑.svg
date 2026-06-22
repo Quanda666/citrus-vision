@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="thanksGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7C66"/>
+      <stop offset="100%" stop-color="#0A5A49"/>
+    </linearGradient>
+    <radialGradient id="thanksDecor" cx="88%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#F2811D" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F2811D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="44" width="6" height="56" rx="3" fill="#0E7C66"/>
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">预期成果 · 总结 · 答疑</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">以规范的软件工程过程，交付一个完整、可演示、可追溯的柑橘品质分级系统</text>
+  </g>
+
+  <!-- ==================== Left: deliverables checklist ==================== -->
+  <g id="deliverables" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <use data-icon="tabler-outline/package" x="60" y="148" width="24" height="24" fill="#0E7C66"/>
+    <text x="92" y="167" font-size="19" font-weight="800" fill="#1F2A33">交付物清单</text>
+
+    <use data-icon="tabler-outline/circle-check" x="62" y="200" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="215" font-size="15" fill="#1F2A33">课程设计报告（含任务书）</text>
+    <use data-icon="tabler-outline/circle-check" x="62" y="238" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="253" font-size="15" fill="#1F2A33">演示视频（<tspan font-weight="700" fill="#C2610A">≤ 50M</tspan>）</text>
+    <use data-icon="tabler-outline/circle-check" x="62" y="276" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="291" font-size="15" fill="#1F2A33">源码包（含注释）</text>
+    <use data-icon="tabler-outline/circle-check" x="62" y="314" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="329" font-size="15" fill="#1F2A33">源代码文档</text>
+    <use data-icon="tabler-outline/circle-check" x="62" y="352" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="367" font-size="15" fill="#1F2A33">数据库脚本</text>
+    <use data-icon="tabler-outline/circle-check" x="62" y="390" width="20" height="20" fill="#2E9E5B"/>
+    <text x="92" y="405" font-size="15" fill="#1F2A33">测试材料（用例 / 报告）</text>
+
+    <rect x="62" y="432" width="300" height="30" rx="15" fill="#F2811D" fill-opacity="0.10"/>
+    <use data-icon="tabler-outline/file-text" x="74" y="439" width="16" height="16" fill="#C2610A"/>
+    <text x="96" y="452" font-size="12.5" font-weight="700" fill="#C2610A">命名规范：第12组-《题目名》</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="640" y1="150" x2="640" y2="470" stroke="#E2E8E9" stroke-width="1"/>
+
+  <!-- ==================== Right: outcomes + core strategy ==================== -->
+  <g id="outcomes" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <!-- 文档成果 -->
+    <use data-icon="tabler-outline/file-text" x="672" y="150" width="22" height="22" fill="#0E7C66"/>
+    <text x="702" y="168" font-size="16" font-weight="800" fill="#1F2A33">文档成果</text>
+    <text x="672" y="196" font-size="13.5" fill="#5B6B73">用例图 · DFD · 数据字典 · 软件结构图 · E-R ·</text>
+    <text x="672" y="218" font-size="13.5" fill="#5B6B73">类图 · 时序 · 活动 · 状态图 —— <tspan font-weight="700" fill="#0A5A49">九类 UML 齐备</tspan></text>
+
+    <!-- 系统成果 -->
+    <use data-icon="tabler-outline/eye-check" x="672" y="248" width="22" height="22" fill="#0E7C66"/>
+    <text x="702" y="266" font-size="16" font-weight="800" fill="#1F2A33">系统成果</text>
+    <text x="672" y="294" font-size="13.5" fill="#5B6B73">可运行的<tspan font-weight="700" fill="#0A5A49">四层 Web 系统</tspan>，完成</text>
+    <text x="672" y="316" font-size="13.5" fill="#5B6B73">「上传 → 分级 → 缺陷 → 溯源 → 报表」闭环</text>
+  </g>
+
+  <g id="core-strategy" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <rect x="672" y="344" width="548" height="124" rx="12" fill="#0E7C66" fill-opacity="0.07"/>
+    <rect x="672" y="344" width="6" height="124" rx="3" fill="#F2811D"/>
+    <use data-icon="tabler-outline/target" x="694" y="362" width="22" height="22" fill="#C2610A"/>
+    <text x="724" y="380" font-size="16" font-weight="800" fill="#0A5A49">核心策略</text>
+    <text x="694" y="412" font-size="14" fill="#1F2A33">文档与系统完整性<tspan font-weight="800" fill="#C2610A">吃满</tspan>（分析 24 + 设计 24 = <tspan font-weight="800" fill="#C2610A">48 分</tspan>）</text>
+    <text x="694" y="440" font-size="14" fill="#1F2A33">算法做到 <tspan font-weight="700" fill="#0A5A49">能演示、有兜底</tspan>，不追求 SOTA、稳交付</text>
+  </g>
+
+  <!-- ==================== Thanks hero ==================== -->
+  <g id="thanks">
+    <rect x="60" y="500" width="1160" height="160" rx="18" fill="url(#thanksGrad)"/>
+    <rect x="60" y="500" width="1160" height="160" rx="18" fill="url(#thanksDecor)"/>
+    <use data-icon="tabler-outline/leaf" x="104" y="556" width="46" height="46" fill="#FFFFFF"/>
+    <text x="170" y="576" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">谢谢聆听</text>
+    <text x="172" y="616" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" fill="#FFFFFF" fill-opacity="0.92">欢迎老师与同学提问 · Q&amp;A</text>
+    <line x1="640" y1="536" x2="640" y2="624" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="690" y="558" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">CitrusVision · 第12组 · 题目10</text>
+    <text x="690" y="588" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.88">陈绍杰 · 黄权达 · 张嘉豪 · 黄浩然</text>
+    <text x="690" y="612" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.88">23本科计科1班 · 2026-06</text>
+    <use data-icon="tabler-outline/eye-check" x="1140" y="528" width="40" height="40" fill="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="700" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">18 / 18</text>
+  </g>
+</svg>

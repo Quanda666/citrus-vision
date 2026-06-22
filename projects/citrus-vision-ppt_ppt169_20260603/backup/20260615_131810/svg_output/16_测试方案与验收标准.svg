@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="38" width="6" height="52" rx="3" fill="#0E7C66"/>
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">测试方案与验收标准</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">五层测试构成多层质量保障，并为系统下明确『完成定义（DoD）』——每条可逐项核验，交付有据</text>
+  </g>
+
+  <!-- ==================== Left: test matrix table ==================== -->
+  <g id="test-matrix" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <use data-icon="tabler-outline/flask-2" x="62" y="132" width="22" height="22" fill="#0E7C66"/>
+    <text x="92" y="150" font-size="17" font-weight="800" fill="#1F2A33">测试矩阵 · 五层质量保障</text>
+
+    <!-- table border -->
+    <rect x="60" y="164" width="660" height="252" rx="8" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1.5"/>
+    <!-- header row -->
+    <path d="M 60 172 a 8 8 0 0 1 8 -8 h 644 a 8 8 0 0 1 8 8 v 28 h -660 Z" fill="#0E7C66"/>
+    <text x="74" y="187" font-size="12.5" font-weight="800" fill="#FFFFFF">测试类型</text>
+    <text x="208" y="187" font-size="12.5" font-weight="800" fill="#FFFFFF">工具 / 方法</text>
+    <text x="452" y="187" font-size="12.5" font-weight="800" fill="#FFFFFF">重点</text>
+    <!-- zebra rows -->
+    <rect x="61" y="243" width="658" height="43" fill="#F4F7F6"/>
+    <rect x="61" y="329" width="658" height="43" fill="#F4F7F6"/>
+    <!-- vertical separators -->
+    <line x1="196" y1="200" x2="196" y2="415" stroke="#E2E8E9" stroke-width="1"/>
+    <line x1="440" y1="200" x2="440" y2="415" stroke="#E2E8E9" stroke-width="1"/>
+    <!-- row 1 功能 -->
+    <text x="74" y="227" font-size="13" font-weight="700" fill="#0A5A49">功能测试</text>
+    <text x="208" y="227" font-size="12" fill="#1F2A33">用例表 · 黑盒</text>
+    <text x="452" y="227" font-size="11.5" fill="#5B6B73">上传 / 分级 / 缺陷 / 溯源 / 导出 全流程</text>
+    <!-- row 2 接口 -->
+    <text x="74" y="270" font-size="13" font-weight="700" fill="#0A5A49">接口测试</text>
+    <text x="208" y="270" font-size="12" fill="#1F2A33">Postman + pytest</text>
+    <text x="452" y="270" font-size="11.5" fill="#5B6B73">入参出参 · 状态码 · 自动化回归</text>
+    <!-- row 3 算法 -->
+    <text x="74" y="313" font-size="13" font-weight="700" fill="#C2610A">算法评估</text>
+    <text x="208" y="313" font-size="12" fill="#1F2A33">mAP · 混淆矩阵</text>
+    <text x="452" y="313" font-size="11.5" fill="#5B6B73">缺陷检测精度 · 独立测试集</text>
+    <!-- row 4 联调 -->
+    <text x="74" y="356" font-size="13" font-weight="700" fill="#0A5A49">系统联调</text>
+    <text x="208" y="356" font-size="12" fill="#1F2A33">端到端 + 并发</text>
+    <text x="452" y="356" font-size="11.5" fill="#5B6B73">前后端算法链路 · ≥ 5 并发</text>
+    <!-- row 5 兼容 -->
+    <text x="74" y="399" font-size="13" font-weight="700" fill="#0A5A49">可用 / 兼容</text>
+    <text x="208" y="399" font-size="12" fill="#1F2A33">多浏览器 + 手机</text>
+    <text x="452" y="399" font-size="11.5" fill="#5B6B73">Chrome / Edge · 微信 H5 响应式</text>
+
+    <!-- typical cases -->
+    <rect x="60" y="432" width="660" height="216" rx="12" fill="#F4F7F6"/>
+    <use data-icon="tabler-outline/list-check" x="76" y="448" width="20" height="20" fill="#0E7C66"/>
+    <text x="104" y="464" font-size="15" font-weight="800" fill="#1F2A33">典型测试用例（举例）</text>
+    <use data-icon="tabler-outline/alert-triangle" x="80" y="486" width="20" height="20" fill="#E0544A"/>
+    <text x="108" y="501" font-size="13" fill="#1F2A33">上传非图片文件 <tspan font-weight="700" fill="#0A5A49">→ 应被拒绝并提示格式错误</tspan></text>
+    <use data-icon="tabler-outline/bug" x="80" y="522" width="20" height="20" fill="#F2811D"/>
+    <text x="108" y="537" font-size="13" fill="#1F2A33">裂纹 / 病斑果 <tspan font-weight="700" fill="#0A5A49">→ 判等外品并框出缺陷</tspan></text>
+    <use data-icon="tabler-outline/stack" x="80" y="558" width="20" height="20" fill="#0E7C66"/>
+    <text x="108" y="573" font-size="13" fill="#1F2A33">批量 10 张 <tspan font-weight="700" fill="#0A5A49">→ 全部返回，按等级统计正确</tspan></text>
+    <use data-icon="tabler-outline/key" x="80" y="594" width="20" height="20" fill="#5B6B73"/>
+    <text x="108" y="609" font-size="13" fill="#1F2A33">未登录调用接口 <tspan font-weight="700" fill="#0A5A49">→ 返回 401 未授权</tspan></text>
+    <text x="76" y="636" font-size="11.5" fill="#94A3B8">接口用 Postman + pytest 自动验证，算法用独立测试集出 mAP 与混淆矩阵</text>
+  </g>
+
+  <!-- ==================== Right: acceptance criteria (DoD) ==================== -->
+  <g id="acceptance" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <use data-icon="tabler-outline/clipboard-check" x="750" y="132" width="22" height="22" fill="#0E7C66"/>
+    <text x="780" y="150" font-size="17" font-weight="800" fill="#1F2A33">验收标准 · 完成定义（DoD）</text>
+
+    <!-- Tier 1 基础 -->
+    <rect x="748" y="170" width="472" height="142" rx="12" fill="#F4F7F6"/>
+    <rect x="748" y="170" width="6" height="142" rx="3" fill="#2E9E5B"/>
+    <use data-icon="tabler-outline/circle-check" x="770" y="186" width="24" height="24" fill="#2E9E5B"/>
+    <text x="802" y="204" font-size="15" font-weight="800" fill="#1F7A45">验收① 基础（必达）</text>
+    <circle cx="778" cy="242" r="2.5" fill="#2E9E5B"/><text x="792" y="247" font-size="13" fill="#1F2A33">系统可运行，四层链路全部打通</text>
+    <circle cx="778" cy="274" r="2.5" fill="#2E9E5B"/><text x="792" y="279" font-size="13" fill="#1F2A33">MVP 闭环 <tspan font-weight="700" fill="#0A5A49">无致命 bug</tspan>（上传→分级→缺陷→展示）</text>
+
+    <!-- Tier 2 算法 -->
+    <rect x="748" y="324" width="472" height="142" rx="12" fill="#F4F7F6"/>
+    <rect x="748" y="324" width="6" height="142" rx="3" fill="#F2811D"/>
+    <use data-icon="tabler-outline/target" x="770" y="340" width="24" height="24" fill="#F2811D"/>
+    <text x="802" y="358" font-size="15" font-weight="800" fill="#C2610A">验收② 算法（核心指标）</text>
+    <circle cx="778" cy="396" r="2.5" fill="#F2811D"/><text x="792" y="401" font-size="13" fill="#1F2A33">缺陷检测 <tspan font-weight="800" fill="#C2610A">mAP@0.5 ≥ 0.60</tspan></text>
+    <circle cx="778" cy="428" r="2.5" fill="#F2811D"/><text x="792" y="433" font-size="13" fill="#1F2A33">分级与人工 <tspan font-weight="800" fill="#C2610A">一致率 ≥ 80%</tspan></text>
+
+    <!-- Tier 3 加分+交付 -->
+    <rect x="748" y="478" width="472" height="170" rx="12" fill="#F4F7F6"/>
+    <rect x="748" y="478" width="6" height="170" rx="3" fill="#0E7C66"/>
+    <use data-icon="tabler-outline/package" x="770" y="494" width="24" height="24" fill="#0E7C66"/>
+    <text x="802" y="512" font-size="15" font-weight="800" fill="#0A5A49">验收③ 加分 + 交付规范</text>
+    <circle cx="778" cy="548" r="2.5" fill="#0E7C66"/><text x="792" y="553" font-size="13" fill="#1F2A33">溯源 / 价格 / 导出 等加分功能可演示</text>
+    <circle cx="778" cy="580" r="2.5" fill="#0E7C66"/><text x="792" y="585" font-size="13" fill="#1F2A33">UML 文档齐全规范（用例 / DFD / E-R / 类图…）</text>
+    <circle cx="778" cy="612" r="2.5" fill="#0E7C66"/><text x="792" y="617" font-size="13" fill="#1F2A33">按规范打包、<tspan font-weight="700" fill="#0A5A49">按时提交</tspan>（第12组-《题目名》）</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="690" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="690" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">16 / 18</text>
+  </g>
+</svg>

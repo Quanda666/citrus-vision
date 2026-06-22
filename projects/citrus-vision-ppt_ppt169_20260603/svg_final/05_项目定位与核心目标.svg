@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="kpiShadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
+      <feOffset dx="0" dy="4" result="o" />
+      <feFlood flood-color="#0F172A" flood-opacity="0.06" result="c" />
+      <feComposite in="c" in2="o" operator="in" result="s" />
+      <feMerge><feMergeNode in="s" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,44 H63 A3,3 0 0 1 66,47 V97 A3,3 0 0 1 63,100 H63 A3,3 0 0 1 60,97 V47 A3,3 0 0 1 63,44 Z" />
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">项目定位与核心目标</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">可量化、可验收——用数字定义"做到什么程度"，而非"又快又准"的空话</text>
+  </g>
+
+  
+  <g id="positioning">
+    <path fill="#0E7C66" fill-opacity="0.08" d="M72,124 H1203 A12,12 0 0 1 1215,136 V176 A12,12 0 0 1 1203,188 H72 A12,12 0 0 1 60,176 V136 A12,12 0 0 1 72,124 Z" />
+    <path fill="#0E7C66" d="M63,124 H63 A3,3 0 0 1 66,127 V185 A3,3 0 0 1 63,188 H63 A3,3 0 0 1 60,185 V127 A3,3 0 0 1 63,124 Z" />
+    
+  <g transform="translate(86.0, 142.0) scale(1.1666666666666667)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M14 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+  </g>
+    <text x="126" y="150" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">项目定位</text>
+    <text x="126" y="174" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2A33">面向教学演示与产地初分场景的、工程完整的机器视觉品质检测 Web 系统（B/S，四层分离）</text>
+  </g>
+
+  
+  
+  <g id="kpi-1">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M76,216 H417 A16,16 0 0 1 433,232 V390 A16,16 0 0 1 417,406 H76 A16,16 0 0 1 60,390 V232 A16,16 0 0 1 76,216 Z" />
+    <path fill="#0E7C66" d="M63,240 H63 A3,3 0 0 1 66,243 V379 A3,3 0 0 1 63,382 H63 A3,3 0 0 1 60,379 V243 A3,3 0 0 1 63,240 Z" />
+    
+  <g transform="translate(377.0, 240.0) scale(1.3333333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 7v5l3 3" />
+  </g>
+    <text x="92" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">单张响应速度（CPU）</text>
+    <text x="90" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≤3<tspan font-size="22" fill="#5B6B73" dx="2">秒</tspan></text>
+    <text x="92" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">返回 等级 + 缺陷红框 + 量化指标 + 置信度</text>
+  </g>
+  
+  <g id="kpi-2">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M469,216 H810 A16,16 0 0 1 826,232 V390 A16,16 0 0 1 810,406 H469 A16,16 0 0 1 453,390 V232 A16,16 0 0 1 469,216 Z" />
+    <path fill="#0E7C66" d="M456,240 H456 A3,3 0 0 1 459,243 V379 A3,3 0 0 1 456,382 H456 A3,3 0 0 1 453,379 V243 A3,3 0 0 1 456,240 Z" />
+    
+  <g transform="translate(770.0, 240.0) scale(1.3333333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g>
+    <text x="485" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">缺陷检测 mAP@0.5</text>
+    <text x="483" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≥0.60</text>
+    <text x="485" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">演示级目标，非硬指标——传统 CV 可兜底</text>
+  </g>
+  
+  <g id="kpi-3">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M862,216 H1203 A16,16 0 0 1 1219,232 V390 A16,16 0 0 1 1203,406 H862 A16,16 0 0 1 846,390 V232 A16,16 0 0 1 862,216 Z" />
+    <path fill="#0E7C66" d="M849,240 H849 A3,3 0 0 1 852,243 V379 A3,3 0 0 1 849,382 H849 A3,3 0 0 1 846,379 V243 A3,3 0 0 1 849,240 Z" />
+    
+  <g transform="translate(1163.0, 240.0) scale(1.3333333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="878" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">分级人工一致率</text>
+    <text x="876" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≥80<tspan font-size="26">%</tspan></text>
+    <text x="878" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">演示集上分级结果与人工标注的一致程度</text>
+  </g>
+  
+  <g id="kpi-4">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M76,430 H417 A16,16 0 0 1 433,446 V604 A16,16 0 0 1 417,620 H76 A16,16 0 0 1 60,604 V446 A16,16 0 0 1 76,430 Z" />
+    <path fill="#F2811D" d="M63,454 H63 A3,3 0 0 1 66,457 V593 A3,3 0 0 1 63,596 H63 A3,3 0 0 1 60,593 V457 A3,3 0 0 1 63,454 Z" />
+    
+  <g transform="translate(377.0, 454.0) scale(1.3333333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M14 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+  </g>
+    <text x="92" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">批量上传汇总</text>
+    <text x="90" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">≥10<tspan font-size="22" fill="#5B6B73" dx="2">张</tspan></text>
+    <text x="92" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一次批量处理多张并按等级计数统计</text>
+  </g>
+  
+  <g id="kpi-5">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M469,430 H810 A16,16 0 0 1 826,446 V604 A16,16 0 0 1 810,620 H469 A16,16 0 0 1 453,604 V446 A16,16 0 0 1 469,430 Z" />
+    <path fill="#F2811D" d="M456,454 H456 A3,3 0 0 1 459,457 V593 A3,3 0 0 1 456,596 H456 A3,3 0 0 1 453,593 V457 A3,3 0 0 1 456,454 Z" />
+    
+  <g transform="translate(770.0, 454.0) scale(1.3333333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 17l0 .01" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 7l0 .01" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M17 7l0 .01" />
+    <path d="M14 14l3 0" />
+    <path d="M20 14l0 .01" />
+    <path d="M14 14l0 3" />
+    <path d="M14 20l3 0" />
+    <path d="M17 17l3 0" />
+    <path d="M20 17l0 3" />
+  </g>
+    <text x="485" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">溯源报告导出</text>
+    <text x="483" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">1<tspan font-size="22" fill="#5B6B73" dx="2">键</tspan></text>
+    <text x="485" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">生成含溯源二维码的 PDF / Excel 报告</text>
+  </g>
+  
+  <g id="kpi-6">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)" d="M862,430 H1203 A16,16 0 0 1 1219,446 V604 A16,16 0 0 1 1203,620 H862 A16,16 0 0 1 846,604 V446 A16,16 0 0 1 862,430 Z" />
+    <path fill="#F2811D" d="M849,454 H849 A3,3 0 0 1 852,457 V593 A3,3 0 0 1 849,596 H849 A3,3 0 0 1 846,593 V457 A3,3 0 0 1 849,454 Z" />
+    
+  <g transform="translate(1163.0, 454.0) scale(1.3333333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+    <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
+    <path d="M9 14l2 2l4 -4" />
+  </g>
+    <text x="878" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">软件工程文档</text>
+    <text x="876" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">9+<tspan font-size="22" fill="#5B6B73" dx="6">图</tspan></text>
+    <text x="878" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">用例 / DFD / 类图 / 时序 / ER 等齐备</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">05 / 18</text>
+  </g>
+</svg>

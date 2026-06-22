@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="defBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E7C66"/>
+      <stop offset="100%" stop-color="#0A5A49"/>
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="48" width="6" height="60" rx="3" fill="#0E7C66"/>
+    <text x="82" y="86" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">项目背景与问题痛点</text>
+    <use data-icon="tabler-outline/map-pin" x="84" y="100" width="20" height="20" fill="#F2811D"/>
+    <text x="110" y="116" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">肇庆（四会 / 德庆）是广东重要柑橘产区——传统品质分级主要依赖人工目检</text>
+  </g>
+
+  <!-- ==================== Left card: traditional ==================== -->
+  <g id="card-traditional">
+    <rect x="60" y="168" width="515" height="356" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1.5"/>
+    <path d="M 76 168 h 220 a 16 16 0 0 1 16 16 v 22 h -252 v -22 a 16 16 0 0 1 16 -16 Z" fill="#E0544A" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/user-circle" x="84" y="178" width="22" height="22" fill="#E0544A"/>
+    <text x="114" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#C2410C">传统人工目检 · 现状痛点</text>
+
+    <!-- pain 1 -->
+    <use data-icon="tabler-outline/adjustments-horizontal" x="86" y="240" width="26" height="26" fill="#E0544A"/>
+    <text x="124" y="252" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">主观性强、标准不一</text>
+    <text x="124" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">不同质检员评级口径不同，结果难统一</text>
+    <!-- pain 2 -->
+    <use data-icon="tabler-outline/clock" x="86" y="304" width="26" height="26" fill="#E0544A"/>
+    <text x="124" y="316" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">效率低下、易疲劳</text>
+    <text x="124" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">逐个目检慢，长时间作业准确率下降</text>
+    <!-- pain 3 -->
+    <use data-icon="tabler-outline/bug" x="86" y="368" width="26" height="26" fill="#E0544A"/>
+    <text x="124" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">表面缺陷易漏检</text>
+    <text x="124" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">细小病斑、裂纹、碰伤肉眼容易遗漏</text>
+    <!-- pain 4 -->
+    <use data-icon="tabler-outline/alert-triangle" x="86" y="432" width="26" height="26" fill="#E0544A"/>
+    <text x="124" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">可追溯性差</text>
+    <text x="124" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缺少产地、批次、检测时间等溯源记录</text>
+  </g>
+
+  <!-- ==================== Middle arrow ==================== -->
+  <g id="arrow-mid">
+    <circle cx="637" cy="346" r="30" fill="#0E7C66"/>
+    <path d="M 626 346 h 16 m -7 -8 l 8 8 l -8 8" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="637" y="404" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0E7C66">机器视觉</text>
+    <text x="637" y="422" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0E7C66">升级</text>
+  </g>
+
+  <!-- ==================== Right card: vision ==================== -->
+  <g id="card-vision">
+    <rect x="700" y="168" width="515" height="356" rx="16" fill="#FFFFFF" stroke="#0E7C66" stroke-width="1.5"/>
+    <path d="M 716 168 h 240 a 16 16 0 0 1 16 16 v 22 h -272 v -22 a 16 16 0 0 1 16 -16 Z" fill="#0E7C66" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/scan" x="724" y="178" width="22" height="22" fill="#0E7C66"/>
+    <text x="754" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#0A5A49">机器视觉自动检测 · 解决方案</text>
+
+    <!-- merit 1 -->
+    <use data-icon="tabler-outline/ruler" x="726" y="240" width="26" height="26" fill="#0E7C66"/>
+    <text x="764" y="252" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">客观量化、标准统一</text>
+    <text x="764" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">果径 / 着色率 / 缺陷占比量化，阈值可配置</text>
+    <!-- merit 2 -->
+    <use data-icon="tabler-outline/cpu" x="726" y="304" width="26" height="26" fill="#0E7C66"/>
+    <text x="764" y="316" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">秒级高效、支持批量</text>
+    <text x="764" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">单张 ≤ 3 秒出结果，一次批量处理多张</text>
+    <!-- merit 3 -->
+    <use data-icon="tabler-outline/eye-check" x="726" y="368" width="26" height="26" fill="#0E7C66"/>
+    <text x="764" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">缺陷精准框选</text>
+    <text x="764" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">自动定位缺陷，给出类别与置信度</text>
+    <!-- merit 4 -->
+    <use data-icon="tabler-outline/qrcode" x="726" y="432" width="26" height="26" fill="#0E7C66"/>
+    <text x="764" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">全程可追溯</text>
+    <text x="764" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">生成溯源二维码，并提供市场价格参考</text>
+  </g>
+
+  <!-- ==================== Problem definition bar ==================== -->
+  <g id="problem-def">
+    <rect x="60" y="556" width="1155" height="80" rx="14" fill="url(#defBar)"/>
+    <use data-icon="tabler-outline/target" x="92" y="578" width="36" height="36" fill="#FFFFFF"/>
+    <text x="148" y="588" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#BFE6D9" letter-spacing="1">问题定义</text>
+    <text x="148" y="616" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">让一张柑橘照片，<tspan fill="#FFD9A8">≤ 3 秒</tspan>得到「<tspan fill="#FFD9A8">等级 + 缺陷 + 量化依据</tspan>」——客观、高效、可追溯</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">03 / 18</text>
+  </g>
+</svg>

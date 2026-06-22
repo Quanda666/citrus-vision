@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="kpiShadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="o"/>
+      <feFlood flood-color="#0F172A" flood-opacity="0.06" result="c"/>
+      <feComposite in="c" in2="o" operator="in" result="s"/>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="44" width="6" height="56" rx="3" fill="#0E7C66"/>
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">项目定位与核心目标</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">可量化、可验收——用数字定义"做到什么程度"，而非"又快又准"的空话</text>
+  </g>
+
+  <!-- ==================== Positioning bar ==================== -->
+  <g id="positioning">
+    <rect x="60" y="124" width="1155" height="64" rx="12" fill="#0E7C66" fill-opacity="0.08"/>
+    <rect x="60" y="124" width="6" height="64" rx="3" fill="#0E7C66"/>
+    <use data-icon="tabler-outline/layout-grid" x="86" y="142" width="28" height="28" fill="#0E7C66"/>
+    <text x="126" y="150" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">项目定位</text>
+    <text x="126" y="174" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2A33">面向教学演示与产地初分场景的、工程完整的机器视觉品质检测 Web 系统（B/S，四层分离）</text>
+  </g>
+
+  <!-- ==================== KPI cards ==================== -->
+  <!-- Card 1 -->
+  <g id="kpi-1">
+    <rect x="60" y="216" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="60" y="240" width="6" height="142" rx="3" fill="#0E7C66"/>
+    <use data-icon="tabler-outline/clock" x="377" y="240" width="32" height="32" fill="#0E7C66"/>
+    <text x="92" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">单张响应速度（CPU）</text>
+    <text x="90" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≤3<tspan font-size="22" fill="#5B6B73" dx="2">秒</tspan></text>
+    <text x="92" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">返回 等级 + 缺陷红框 + 量化指标 + 置信度</text>
+  </g>
+  <!-- Card 2 -->
+  <g id="kpi-2">
+    <rect x="453" y="216" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="453" y="240" width="6" height="142" rx="3" fill="#0E7C66"/>
+    <use data-icon="tabler-outline/target" x="770" y="240" width="32" height="32" fill="#0E7C66"/>
+    <text x="485" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">缺陷检测 mAP@0.5</text>
+    <text x="483" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≥0.60</text>
+    <text x="485" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">演示级目标，非硬指标——传统 CV 鲁棒可靠</text>
+  </g>
+  <!-- Card 3 -->
+  <g id="kpi-3">
+    <rect x="846" y="216" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="846" y="240" width="6" height="142" rx="3" fill="#0E7C66"/>
+    <use data-icon="tabler-outline/circle-check" x="1163" y="240" width="32" height="32" fill="#0E7C66"/>
+    <text x="878" y="262" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">分级人工一致率</text>
+    <text x="876" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#0E7C66">≥80<tspan font-size="26">%</tspan></text>
+    <text x="878" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">演示集上分级结果与人工标注的一致程度</text>
+  </g>
+  <!-- Card 4 -->
+  <g id="kpi-4">
+    <rect x="60" y="430" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="60" y="454" width="6" height="142" rx="3" fill="#F2811D"/>
+    <use data-icon="tabler-outline/layout-grid" x="377" y="454" width="32" height="32" fill="#F2811D"/>
+    <text x="92" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">批量上传汇总</text>
+    <text x="90" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">≥10<tspan font-size="22" fill="#5B6B73" dx="2">张</tspan></text>
+    <text x="92" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一次批量处理多张并按等级计数统计</text>
+  </g>
+  <!-- Card 5 -->
+  <g id="kpi-5">
+    <rect x="453" y="430" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="453" y="454" width="6" height="142" rx="3" fill="#F2811D"/>
+    <use data-icon="tabler-outline/qrcode" x="770" y="454" width="32" height="32" fill="#F2811D"/>
+    <text x="485" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">溯源报告导出</text>
+    <text x="483" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">1<tspan font-size="22" fill="#5B6B73" dx="2">键</tspan></text>
+    <text x="485" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">生成含溯源二维码的 PDF / Excel 报告</text>
+  </g>
+  <!-- Card 6 -->
+  <g id="kpi-6">
+    <rect x="846" y="430" width="373" height="190" rx="16" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#kpiShadow)"/>
+    <rect x="846" y="454" width="6" height="142" rx="3" fill="#F2811D"/>
+    <use data-icon="tabler-outline/clipboard-check" x="1163" y="454" width="32" height="32" fill="#F2811D"/>
+    <text x="878" y="476" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">软件工程文档</text>
+    <text x="876" y="544" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="800" fill="#F2811D">9+<tspan font-size="22" fill="#5B6B73" dx="6">图</tspan></text>
+    <text x="878" y="586" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">用例 / DFD / 类图 / 时序 / ER 等齐备</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">05 / 18</text>
+  </g>
+</svg>

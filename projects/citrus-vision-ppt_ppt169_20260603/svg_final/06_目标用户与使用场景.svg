@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,44 H63 A3,3 0 0 1 66,47 V97 A3,3 0 0 1 63,100 H63 A3,3 0 0 1 60,97 V47 A3,3 0 0 1 63,44 Z" />
+    <text x="82" y="80" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">目标用户与使用场景</text>
+    <text x="84" y="108" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">服务三类角色——把抽象功能落到具体的人与具体的操作上</text>
+  </g>
+
+  
+  <g id="card-user">
+    <path fill="#F4F7F6" d="M80,170 H413 A20,20 0 0 1 433,190 V450 A20,20 0 0 1 413,470 H80 A20,20 0 0 1 60,450 V190 A20,20 0 0 1 80,170 Z" />
+    <path d="M 151 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#0E7C66" />
+    <text x="246" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">普通用户</text>
+    <path fill="#FFFFFF" d="M90,238 H403 A12,12 0 0 1 415,250 V442 A12,12 0 0 1 403,454 H90 A12,12 0 0 1 78,442 V250 A12,12 0 0 1 90,238 Z" />
+    
+  <g transform="translate(94.0, 256.0) scale(1.25)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+  </g>
+    <text x="132" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">分拣员 / 合作社质检员</text>
+    <line x1="94" y1="296" x2="399" y2="296" stroke="#E2E8E9" stroke-width="1" />
+    <text x="94" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型场景</text>
+    <text x="94" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">收果初分、电商上架前分级</text>
+    <text x="94" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型流程</text>
+    <circle cx="98" cy="401" r="2.5" fill="#F2811D" /><text x="110" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登录 → 拍照 / 上传图片</text>
+    <circle cx="98" cy="425" r="2.5" fill="#F2811D" /><text x="110" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">查看等级徽章与缺陷红框</text>
+    <circle cx="98" cy="449" r="2.5" fill="#F2811D" /><text x="110" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">登记溯源 → 导出报告</text>
+  </g>
+
+  
+  <g id="card-admin">
+    <path fill="#F4F7F6" d="M473,170 H806 A20,20 0 0 1 826,190 V450 A20,20 0 0 1 806,470 H473 A20,20 0 0 1 453,450 V190 A20,20 0 0 1 473,170 Z" />
+    <path d="M 544 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#0A5A49" />
+    <text x="639" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">管理员 / 技术员</text>
+    <path fill="#FFFFFF" d="M483,238 H796 A12,12 0 0 1 808,250 V442 A12,12 0 0 1 796,454 H483 A12,12 0 0 1 471,442 V250 A12,12 0 0 1 483,238 Z" />
+    
+  <g transform="translate(487.0, 256.0) scale(1.25)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065" />
+    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+  </g>
+    <text x="525" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">系统维护者</text>
+    <line x1="487" y1="296" x2="792" y2="296" stroke="#E2E8E9" stroke-width="1" />
+    <text x="487" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型场景</text>
+    <text x="487" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">维护标准、管理数据与模型</text>
+    <text x="487" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49">典型流程</text>
+    <circle cx="491" cy="401" r="2.5" fill="#F2811D" /><text x="503" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">维护分级标准 / 价格</text>
+    <circle cx="491" cy="425" r="2.5" fill="#F2811D" /><text x="503" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">管理样本库 → 切换模型</text>
+    <circle cx="491" cy="449" r="2.5" fill="#F2811D" /><text x="503" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">查看操作日志与统计看板</text>
+  </g>
+
+  
+  <g id="card-judge">
+    <path fill="#F4F7F6" d="M866,170 H1199 A20,20 0 0 1 1219,190 V450 A20,20 0 0 1 1199,470 H866 A20,20 0 0 1 846,450 V190 A20,20 0 0 1 866,170 Z" />
+    <path d="M 937 170 h 190 a 25 25 0 0 1 25 25 v 25 h -240 v -25 a 25 25 0 0 1 25 -25 Z" fill="#F2811D" />
+    <text x="1032" y="203" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">老师 / 同学</text>
+    <path fill="#FFFFFF" d="M876,238 H1189 A12,12 0 0 1 1201,250 V442 A12,12 0 0 1 1189,454 H876 A12,12 0 0 1 864,442 V250 A12,12 0 0 1 876,238 Z" />
+
+  <g transform="translate(880.0, 256.0) scale(1.25)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+  </g>
+    <text x="918" y="277" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">间接用户（课堂演示）</text>
+    <line x1="880" y1="296" x2="1185" y2="296" stroke="#E2E8E9" stroke-width="1" />
+    <text x="880" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">典型场景</text>
+    <text x="880" y="344" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#1F2A33">课堂汇报现场实时演示</text>
+    <text x="880" y="378" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A">关注点</text>
+    <circle cx="884" cy="401" r="2.5" fill="#0E7C66" /><text x="896" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">实拍秒级检测效果</text>
+    <circle cx="884" cy="425" r="2.5" fill="#0E7C66" /><text x="896" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">批量处理与统计图表</text>
+    <circle cx="884" cy="449" r="2.5" fill="#0E7C66" /><text x="896" y="454" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">一键报告导出</text>
+  </g>
+
+  
+  <g id="journey">
+    <path fill="#0E7C66" fill-opacity="0.06" d="M74,498 H1201 A14,14 0 0 1 1215,512 V624 A14,14 0 0 1 1201,638 H74 A14,14 0 0 1 60,624 V512 A14,14 0 0 1 74,498 Z" />
+    <path fill="#F2811D" d="M63,498 H63 A3,3 0 0 1 66,501 V635 A3,3 0 0 1 63,638 H63 A3,3 0 0 1 60,635 V501 A3,3 0 0 1 63,498 Z" />
+    <text x="88" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#0A5A49">主场景 · 质检员现场使用旅程</text>
+    
+    <g stroke="#0E7C66" stroke-width="2" fill="none" stroke-opacity="0.5" stroke-linecap="round">
+      <path d="M 252 576 h 78 m -10 -6 l 10 6 l -10 6" />
+      <path d="M 492 576 h 78 m -10 -6 l 10 6 l -10 6" />
+      <path d="M 732 576 h 78 m -10 -6 l 10 6 l -10 6" />
+      <path d="M 972 576 h 78 m -10 -6 l 10 6 l -10 6" />
+    </g>
+    
+    <g id="j1"><circle cx="170" cy="576" r="26" fill="#0E7C66" />
+  <g transform="translate(156.0, 562.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
+    <path d="M11 4h2" />
+    <path d="M12 17v.01" />
+  </g><text x="170" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">微信扫码进 H5</text></g>
+    <g id="j2"><circle cx="410" cy="576" r="26" fill="#0E7C66" />
+  <g transform="translate(396.0, 562.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
+    <path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+  </g><text x="410" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">拍照 / 批量上传</text></g>
+    <g id="j3"><circle cx="650" cy="576" r="26" fill="#0E7C66" />
+  <g transform="translate(636.0, 562.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g><text x="650" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">秒级等级 + 缺陷</text></g>
+    <g id="j4"><circle cx="890" cy="576" r="26" fill="#0E7C66" />
+  <g transform="translate(876.0, 562.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M3 13a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -6" />
+    <path d="M15 9a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -10" />
+    <path d="M9 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -14" />
+    <path d="M4 20h14" />
+  </g><text x="890" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">按等级计数 + 参考价</text></g>
+    <g id="j5"><circle cx="1130" cy="576" r="26" fill="#F2811D" />
+  <g transform="translate(1116.0, 562.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 9l1 0" />
+    <path d="M9 13l6 0" />
+    <path d="M9 17l6 0" />
+  </g><text x="1130" y="622" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#1F2A33">导出当批报告</text></g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">06 / 18</text>
+  </g>
+</svg>

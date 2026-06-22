@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="defBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E7C66" />
+      <stop offset="100%" stop-color="#0A5A49" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,48 H63 A3,3 0 0 1 66,51 V105 A3,3 0 0 1 63,108 H63 A3,3 0 0 1 60,105 V51 A3,3 0 0 1 63,48 Z" />
+    <text x="82" y="86" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#1F2A33">项目背景与问题痛点</text>
+    
+  <g transform="translate(84.0, 100.0) scale(0.8333333333333334)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" />
+  </g>
+    <text x="110" y="116" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">肇庆（四会 / 德庆）是广东重要柑橘产区——传统品质分级主要依赖人工目检</text>
+  </g>
+
+  
+  <g id="card-traditional">
+    <path fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1.5" d="M76,168 H559 A16,16 0 0 1 575,184 V508 A16,16 0 0 1 559,524 H76 A16,16 0 0 1 60,508 V184 A16,16 0 0 1 76,168 Z" />
+    <path d="M 76 168 h 220 a 16 16 0 0 1 16 16 v 22 h -252 v -22 a 16 16 0 0 1 16 -16 Z" fill="#E0544A" fill-opacity="0.12" />
+    
+  <g transform="translate(84.0, 178.0) scale(0.9166666666666666)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+  </g>
+    <text x="114" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#C2410C">传统人工目检 · 现状痛点</text>
+
+    
+    
+  <g transform="translate(86.0, 240.0) scale(1.0833333333333333)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M12 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 6l8 0" />
+    <path d="M16 6l4 0" />
+    <path d="M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 12l2 0" />
+    <path d="M10 12l10 0" />
+    <path d="M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M4 18l11 0" />
+    <path d="M19 18l1 0" />
+  </g>
+    <text x="124" y="252" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">主观性强、标准不一</text>
+    <text x="124" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">不同质检员评级口径不同，结果难统一</text>
+    
+    
+  <g transform="translate(86.0, 304.0) scale(1.0833333333333333)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 7v5l3 3" />
+  </g>
+    <text x="124" y="316" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">效率低下、易疲劳</text>
+    <text x="124" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">逐个目检慢，长时间作业准确率下降</text>
+    
+    
+  <g transform="translate(86.0, 368.0) scale(1.0833333333333333)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M9 9v-1a3 3 0 0 1 6 0v1" />
+    <path d="M8 9h8a6 6 0 0 1 1 3v3a5 5 0 0 1 -10 0v-3a6 6 0 0 1 1 -3" />
+    <path d="M3 13l4 0" />
+    <path d="M17 13l4 0" />
+    <path d="M12 20l0 -6" />
+    <path d="M4 19l3.35 -2" />
+    <path d="M20 19l-3.35 -2" />
+    <path d="M4 7l3.75 2.4" />
+    <path d="M20 7l-3.75 2.4" />
+  </g>
+    <text x="124" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">表面缺陷易漏检</text>
+    <text x="124" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">细小病斑、裂纹、碰伤肉眼容易遗漏</text>
+    
+    
+  <g transform="translate(86.0, 432.0) scale(1.0833333333333333)" fill="none" stroke="#E0544A" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="124" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">可追溯性差</text>
+    <text x="124" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">缺少产地、批次、检测时间等溯源记录</text>
+  </g>
+
+  
+  <g id="arrow-mid">
+    <circle cx="637" cy="346" r="30" fill="#0E7C66" />
+    <path d="M 626 346 h 16 m -7 -8 l 8 8 l -8 8" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="637" y="404" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0E7C66">机器视觉</text>
+    <text x="637" y="422" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0E7C66">升级</text>
+  </g>
+
+  
+  <g id="card-vision">
+    <path fill="#FFFFFF" stroke="#0E7C66" stroke-width="1.5" d="M716,168 H1199 A16,16 0 0 1 1215,184 V508 A16,16 0 0 1 1199,524 H716 A16,16 0 0 1 700,508 V184 A16,16 0 0 1 716,168 Z" />
+    <path d="M 716 168 h 240 a 16 16 0 0 1 16 16 v 22 h -272 v -22 a 16 16 0 0 1 16 -16 Z" fill="#0E7C66" fill-opacity="0.12" />
+    
+  <g transform="translate(724.0, 178.0) scale(0.9166666666666666)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M4 7v-1a2 2 0 0 1 2 -2h2" />
+    <path d="M4 17v1a2 2 0 0 0 2 2h2" />
+    <path d="M16 4h2a2 2 0 0 1 2 2v1" />
+    <path d="M16 20h2a2 2 0 0 0 2 -2v-1" />
+    <path d="M5 12l14 0" />
+  </g>
+    <text x="754" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="800" fill="#0A5A49">机器视觉自动检测 · 解决方案</text>
+
+    
+    
+  <g transform="translate(726.0, 240.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M5 4h14a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-7a1 1 0 0 0 -1 1v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1" />
+    <path d="M4 8l2 0" />
+    <path d="M4 12l3 0" />
+    <path d="M4 16l2 0" />
+    <path d="M8 4l0 2" />
+    <path d="M12 4l0 3" />
+    <path d="M16 4l0 2" />
+  </g>
+    <text x="764" y="252" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">客观量化、标准统一</text>
+    <text x="764" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">果径 / 着色率 / 缺陷占比量化，阈值可配置</text>
+    
+    
+  <g transform="translate(726.0, 304.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g>
+    <text x="764" y="316" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">秒级高效、支持批量</text>
+    <text x="764" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">单张 ≤ 3 秒出结果，一次批量处理多张</text>
+    
+    
+  <g transform="translate(726.0, 368.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="764" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">缺陷精准框选</text>
+    <text x="764" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">自动定位缺陷，给出类别与置信度</text>
+    
+    
+  <g transform="translate(726.0, 432.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 17l0 .01" />
+    <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M7 7l0 .01" />
+    <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+    <path d="M17 7l0 .01" />
+    <path d="M14 14l3 0" />
+    <path d="M20 14l0 .01" />
+    <path d="M14 14l0 3" />
+    <path d="M14 20l3 0" />
+    <path d="M17 17l3 0" />
+    <path d="M20 17l0 3" />
+  </g>
+    <text x="764" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2A33">全程可追溯</text>
+    <text x="764" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#5B6B73">生成溯源二维码，并提供市场价格参考</text>
+  </g>
+
+  
+  <g id="problem-def">
+    <path fill="url(#defBar)" d="M74,556 H1201 A14,14 0 0 1 1215,570 V622 A14,14 0 0 1 1201,636 H74 A14,14 0 0 1 60,622 V570 A14,14 0 0 1 74,556 Z" />
+    
+  <g transform="translate(92.0, 578.0) scale(1.5)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g>
+    <text x="148" y="588" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#BFE6D9" letter-spacing="1">问题定义</text>
+    <text x="148" y="616" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">让一张柑橘照片，<tspan fill="#FFD9A8">≤ 3 秒</tspan>得到「<tspan fill="#FFD9A8">等级 + 缺陷 + 量化依据</tspan>」——客观、高效、可追溯</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">03 / 18</text>
+  </g>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="colShadow" x="-10%" y="-8%" width="120%" height="116%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+      <feOffset dx="0" dy="3" result="o"/>
+      <feFlood flood-color="#0F172A" flood-opacity="0.05" result="c"/>
+      <feComposite in="c" in2="o" operator="in" result="s"/>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="40" width="6" height="54" rx="3" fill="#0E7C66"/>
+    <text x="82" y="74" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="800" fill="#1F2A33">技术栈选型及理由</text>
+    <text x="84" y="102" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5B6B73">每项选型对应教学 / 交付 / 风险考量——"为什么这样做"，而非堆砌时髦框架</text>
+  </g>
+
+  <!-- ==================== Pillar 1: 前端 ==================== -->
+  <g id="col-frontend" transform="translate(64, 150)">
+    <rect x="0" y="0" width="210" height="468" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#colShadow)"/>
+    <path d="M 12 0 h 186 a 12 12 0 0 1 12 12 v 92 h -210 v -92 a 12 12 0 0 1 12 -12 Z" fill="#0E7C66" fill-opacity="0.10"/>
+    <use data-icon="tabler-outline/layout-grid" x="85" y="20" width="40" height="40" fill="#0E7C66"/>
+    <text x="105" y="80" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#0E7C66">前端</text>
+    <text x="105" y="98" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#5B6B73">Vue 3 + Vite</text>
+    <circle cx="22" cy="142" r="3" fill="#0E7C66"/><text x="34" y="147" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Element Plus 组件库</text>
+    <circle cx="22" cy="178" r="3" fill="#0E7C66"/><text x="34" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">ECharts 可视化</text>
+    <circle cx="22" cy="214" r="3" fill="#0E7C66"/><text x="34" y="219" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Pinia / Router / Axios</text>
+    <rect x="12" y="248" width="186" height="200" rx="8" fill="#0E7C66" fill-opacity="0.06"/>
+    <text x="26" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="800" fill="#0A5A49">选型理由</text>
+    <text x="26" y="302" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">① 组件库出活快、</text>
+    <text x="26" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   学习曲线平缓</text>
+    <text x="26" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">② ECharts 演示效果好</text>
+    <text x="26" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">③ 一套响应式同时</text>
+    <text x="26" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   兼顾 PC 与 H5</text>
+  </g>
+
+  <!-- ==================== Pillar 2: 后端 ==================== -->
+  <g id="col-backend" transform="translate(298, 150)">
+    <rect x="0" y="0" width="210" height="468" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#colShadow)"/>
+    <path d="M 12 0 h 186 a 12 12 0 0 1 12 12 v 92 h -210 v -92 a 12 12 0 0 1 12 -12 Z" fill="#0A5A49" fill-opacity="0.10"/>
+    <use data-icon="tabler-outline/server" x="85" y="20" width="40" height="40" fill="#0A5A49"/>
+    <text x="105" y="80" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#0A5A49">后端 API</text>
+    <text x="105" y="98" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#5B6B73">FastAPI</text>
+    <circle cx="22" cy="142" r="3" fill="#0A5A49"/><text x="34" y="147" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Python 3.10 + Uvicorn</text>
+    <circle cx="22" cy="178" r="3" fill="#0A5A49"/><text x="34" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">SQLAlchemy ORM</text>
+    <circle cx="22" cy="214" r="3" fill="#0A5A49"/><text x="34" y="219" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Pydantic 校验</text>
+    <rect x="12" y="248" width="186" height="200" rx="8" fill="#0A5A49" fill-opacity="0.06"/>
+    <text x="26" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="800" fill="#0A5A49">选型理由</text>
+    <text x="26" y="302" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">① 与算法同为 Python，</text>
+    <text x="26" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   集成零成本</text>
+    <text x="26" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">② 自带 Swagger 交互式</text>
+    <text x="26" y="370" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   API 文档</text>
+    <text x="26" y="398" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">③ 直接服务接口设计交付</text>
+  </g>
+
+  <!-- ==================== Pillar 3: 算法 ==================== -->
+  <g id="col-algo" transform="translate(532, 150)">
+    <rect x="0" y="0" width="210" height="468" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#colShadow)"/>
+    <path d="M 12 0 h 186 a 12 12 0 0 1 12 12 v 92 h -210 v -92 a 12 12 0 0 1 12 -12 Z" fill="#F2811D" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/cpu" x="85" y="20" width="40" height="40" fill="#F2811D"/>
+    <text x="105" y="80" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#C2610A">算法服务</text>
+    <text x="105" y="98" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#5B6B73">OpenCV + YOLOv8</text>
+    <circle cx="22" cy="142" r="3" fill="#F2811D"/><text x="34" y="147" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">PyTorch + Ultralytics</text>
+    <circle cx="22" cy="178" r="3" fill="#F2811D"/><text x="34" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">传统 CV 特征</text>
+    <circle cx="22" cy="214" r="3" fill="#F2811D"/><text x="34" y="219" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">scikit-learn</text>
+    <rect x="12" y="248" width="186" height="200" rx="8" fill="#F2811D" fill-opacity="0.07"/>
+    <text x="26" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="800" fill="#C2610A">选型理由</text>
+    <text x="26" y="302" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">① 拆独立服务，体现</text>
+    <text x="26" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   四层架构</text>
+    <text x="26" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">② 开箱即用、CPU 可推理</text>
+    <text x="26" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">③ 传统 CV 分级可解释</text>
+    <text x="26" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   且能兜底</text>
+  </g>
+
+  <!-- ==================== Pillar 4: 数据库 ==================== -->
+  <g id="col-db" transform="translate(766, 150)">
+    <rect x="0" y="0" width="210" height="468" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#colShadow)"/>
+    <path d="M 12 0 h 186 a 12 12 0 0 1 12 12 v 92 h -210 v -92 a 12 12 0 0 1 12 -12 Z" fill="#2E9E5B" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/database" x="85" y="20" width="40" height="40" fill="#2E9E5B"/>
+    <text x="105" y="80" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#1F7A45">数据库</text>
+    <text x="105" y="98" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#5B6B73">MySQL 8 / SQLite</text>
+    <circle cx="22" cy="142" r="3" fill="#2E9E5B"/><text x="34" y="147" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">MySQL 8（生产）</text>
+    <circle cx="22" cy="178" r="3" fill="#2E9E5B"/><text x="34" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">SQLite（开发）</text>
+    <circle cx="22" cy="214" r="3" fill="#2E9E5B"/><text x="34" y="219" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Navicat 管理</text>
+    <rect x="12" y="248" width="186" height="200" rx="8" fill="#2E9E5B" fill-opacity="0.07"/>
+    <text x="26" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="800" fill="#1F7A45">选型理由</text>
+    <text x="26" y="302" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">① 符合"数据库设计"</text>
+    <text x="26" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   要求，便于画 E-R</text>
+    <text x="26" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">② 开发期 SQLite 零配置</text>
+    <text x="26" y="386" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">③ SQLAlchemy 无缝切换</text>
+  </g>
+
+  <!-- ==================== Pillar 5: 训练&工具 ==================== -->
+  <g id="col-train" transform="translate(1000, 150)">
+    <rect x="0" y="0" width="210" height="468" rx="12" fill="#FFFFFF" stroke="#E2E8E9" stroke-width="1" filter="url(#colShadow)"/>
+    <path d="M 12 0 h 186 a 12 12 0 0 1 12 12 v 92 h -210 v -92 a 12 12 0 0 1 12 -12 Z" fill="#5B6B73" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/cloud" x="85" y="20" width="40" height="40" fill="#5B6B73"/>
+    <text x="105" y="80" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="800" fill="#475569">训练 &amp; 工具</text>
+    <text x="105" y="98" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#5B6B73">Colab / AI Studio</text>
+    <circle cx="22" cy="142" r="3" fill="#5B6B73"/><text x="34" y="147" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">免费 GPU 训练</text>
+    <circle cx="22" cy="178" r="3" fill="#5B6B73"/><text x="34" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Roboflow / LabelImg</text>
+    <circle cx="22" cy="214" r="3" fill="#5B6B73"/><text x="34" y="219" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#1F2A33">Docker / Git</text>
+    <rect x="12" y="248" width="186" height="200" rx="8" fill="#5B6B73" fill-opacity="0.07"/>
+    <text x="26" y="274" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" font-weight="800" fill="#475569">选型理由</text>
+    <text x="26" y="302" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">① 规避无独立 GPU 风险</text>
+    <text x="26" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">② 云端免费 GPU 训练</text>
+    <text x="26" y="374" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">③ 在线标注 + 数据增强，</text>
+    <text x="26" y="394" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">   导出 YOLO 格式</text>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="688" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">10 / 18</text>
+  </g>
+</svg>

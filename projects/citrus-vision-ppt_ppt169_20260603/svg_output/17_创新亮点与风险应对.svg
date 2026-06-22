@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+
+  <!-- ==================== Header ==================== -->
+  <g id="header">
+    <rect x="60" y="38" width="6" height="52" rx="3" fill="#0E7C66"/>
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">创新亮点与风险应对</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">差异化创新主打『低风险、强演示』前三项，第四项作余力扩展；对周期 / 数据 / 算法 / 现场均有预案</text>
+  </g>
+
+  <!-- ==================== Section label ==================== -->
+  <g id="label-innov">
+    <use data-icon="tabler-outline/bulb" x="62" y="116" width="20" height="20" fill="#F2811D"/>
+    <text x="90" y="132" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" font-weight="800" fill="#1F2A33">四大创新亮点</text>
+  </g>
+
+  <!-- ==================== Innovation card 1 ==================== -->
+  <g id="innov-1">
+    <rect x="60" y="146" width="272" height="222" rx="16" fill="#F4F7F6"/>
+    <text x="308" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#0E7C66" fill-opacity="0.10">01</text>
+    <rect x="84" y="168" width="52" height="52" rx="14" fill="#0E7C66" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/eye-check" x="98" y="182" width="24" height="24" fill="#0E7C66"/>
+    <text x="84" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">双引擎可解释分级</text>
+    <text x="84" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0E7C66" letter-spacing="0.5">量化指标 + DL 检测</text>
+    <text x="84" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">果径 / 着色率 / 缺陷占比 等</text>
+    <text x="84" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">量化依据 + YOLOv8 融合，</text>
+    <text x="84" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">分级<tspan font-weight="700" fill="#0A5A49">有据可查、非黑盒</tspan></text>
+  </g>
+
+  <!-- ==================== Innovation card 2 ==================== -->
+  <g id="innov-2">
+    <rect x="356" y="146" width="272" height="222" rx="16" fill="#F4F7F6"/>
+    <text x="604" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#F2811D" fill-opacity="0.10">02</text>
+    <rect x="380" y="168" width="52" height="52" rx="14" fill="#F2811D" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/adjustments-horizontal" x="394" y="182" width="24" height="24" fill="#F2811D"/>
+    <text x="380" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">标准可配置 · 模板化</text>
+    <text x="380" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#C2610A" letter-spacing="0.5">在线调阈值，不动代码</text>
+    <text x="380" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">内置砂糖橘 / 贡柑分级模板，</text>
+    <text x="380" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">管理员可在线调整阈值，</text>
+    <text x="380" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">标准<tspan font-weight="700" fill="#0A5A49">独立成表可维护</tspan></text>
+  </g>
+
+  <!-- ==================== Innovation card 3 ==================== -->
+  <g id="innov-3">
+    <rect x="652" y="146" width="272" height="222" rx="16" fill="#F4F7F6"/>
+    <text x="900" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#0A5A49" fill-opacity="0.10">03</text>
+    <rect x="676" y="168" width="52" height="52" rx="14" fill="#0A5A49" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/qrcode" x="690" y="182" width="24" height="24" fill="#0A5A49"/>
+    <text x="676" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">溯源码 + 价格联动</text>
+    <text x="676" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0A5A49" letter-spacing="0.5">一键生成溯源报告</text>
+    <text x="676" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">结果一键生成可扫码溯源</text>
+    <text x="676" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">报告，并按等级<tspan font-weight="700" fill="#0A5A49">联动</tspan></text>
+    <text x="676" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73"><tspan font-weight="700" fill="#0A5A49">参考价格</tspan>，闭环到应用</text>
+  </g>
+
+  <!-- ==================== Innovation card 4 (余力) ==================== -->
+  <g id="innov-4">
+    <rect x="948" y="146" width="272" height="222" rx="16" fill="#F4F7F6"/>
+    <text x="1196" y="200" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="46" font-weight="800" fill="#2E9E5B" fill-opacity="0.10">04</text>
+    <rect x="972" y="168" width="52" height="52" rx="14" fill="#2E9E5B" fill-opacity="0.12"/>
+    <use data-icon="tabler-outline/stack" x="986" y="182" width="24" height="24" fill="#2E9E5B"/>
+    <rect x="1120" y="172" width="76" height="22" rx="11" fill="#2E9E5B" fill-opacity="0.15"/>
+    <text x="1158" y="187" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#1F7A45">余力扩展</text>
+    <text x="972" y="256" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16.5" font-weight="800" fill="#1F2A33">多品类可扩展</text>
+    <text x="972" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F7A45" letter-spacing="0.5">架构留扩展位</text>
+    <text x="972" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">用公开苹果 / 番茄数据集</text>
+    <text x="972" y="328" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">做对照，验证<tspan font-weight="700" fill="#0A5A49">可扩展性</tspan>，</text>
+    <text x="972" y="348" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12.5" fill="#5B6B73">不挤占核心交付</text>
+  </g>
+
+  <!-- ==================== Risk matrix ==================== -->
+  <g id="risk" font-family="'Microsoft YaHei', Arial, sans-serif">
+    <rect x="60" y="388" width="1160" height="262" rx="14" fill="#F4F7F6"/>
+    <use data-icon="tabler-outline/alert-triangle" x="84" y="406" width="22" height="22" fill="#E0544A"/>
+    <text x="114" y="423" font-size="16" font-weight="800" fill="#1F2A33">风险识别与应对 · 想在前面、有备而来</text>
+    <text x="430" y="423" font-size="12" fill="#94A3B8">影响等级：</text>
+    <circle cx="500" cy="418" r="5" fill="#E0544A"/><text x="510" y="423" font-size="12" fill="#5B6B73">高</text>
+    <circle cx="540" cy="418" r="5" fill="#F2811D"/><text x="550" y="423" font-size="12" fill="#5B6B73">中</text>
+    <circle cx="580" cy="418" r="5" fill="#2E9E5B"/><text x="590" y="423" font-size="12" fill="#5B6B73">低（均已降级）</text>
+
+    <!-- 4 risk columns -->
+    <!-- risk 1 数据不足 -->
+    <g id="risk-1">
+      <rect x="84" y="446" width="262" height="184" rx="12" fill="#FFFFFF"/>
+      <circle cx="106" cy="476" r="6" fill="#F2811D"/>
+      <text x="120" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">数据不足</text>
+      <rect x="276" y="466" width="48" height="22" rx="11" fill="#F2811D" fill-opacity="0.12"/>
+      <text x="300" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#C2610A">影响中</text>
+      <line x1="104" y1="500" x2="326" y2="500" stroke="#E2E8E9" stroke-width="1"/>
+      <use data-icon="tabler-outline/circle-check" x="100" y="514" width="18" height="18" fill="#2E9E5B"/>
+      <text x="124" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="104" y="556" font-size="12.5" fill="#5B6B73">公开数据集打底，</text>
+      <text x="104" y="578" font-size="12.5" fill="#5B6B73">Roboflow 加速标注，</text>
+      <text x="104" y="600" font-size="12.5" fill="#5B6B73">三源混合凑演示规模</text>
+    </g>
+    <!-- risk 2 模型不稳 -->
+    <g id="risk-2">
+      <rect x="362" y="446" width="262" height="184" rx="12" fill="#FFFFFF"/>
+      <circle cx="384" cy="476" r="6" fill="#F2811D"/>
+      <text x="398" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">模型不稳</text>
+      <rect x="554" y="466" width="48" height="22" rx="11" fill="#F2811D" fill-opacity="0.12"/>
+      <text x="578" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#C2610A">影响中</text>
+      <line x1="382" y1="500" x2="604" y2="500" stroke="#E2E8E9" stroke-width="1"/>
+      <use data-icon="tabler-outline/circle-check" x="378" y="514" width="18" height="18" fill="#2E9E5B"/>
+      <text x="402" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="382" y="556" font-size="12.5" fill="#5B6B73">传统 CV 量化分级</text>
+      <text x="382" y="578" font-size="12.5" fill="#5B6B73">备用方案，DL 欠佳也能</text>
+      <text x="382" y="600" font-size="12.5" fill="#5B6B73">保证系统可用</text>
+    </g>
+    <!-- risk 3 无 GPU -->
+    <g id="risk-3">
+      <rect x="640" y="446" width="262" height="184" rx="12" fill="#FFFFFF"/>
+      <circle cx="662" cy="476" r="6" fill="#2E9E5B"/>
+      <text x="676" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">无 GPU</text>
+      <rect x="832" y="466" width="48" height="22" rx="11" fill="#2E9E5B" fill-opacity="0.14"/>
+      <text x="856" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#1F7A45">影响低</text>
+      <line x1="660" y1="500" x2="882" y2="500" stroke="#E2E8E9" stroke-width="1"/>
+      <use data-icon="tabler-outline/circle-check" x="656" y="514" width="18" height="18" fill="#2E9E5B"/>
+      <text x="680" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="660" y="556" font-size="12.5" fill="#5B6B73">免费云 GPU（Colab /</text>
+      <text x="660" y="578" font-size="12.5" fill="#5B6B73">AI Studio），轻量</text>
+      <text x="660" y="600" font-size="12.5" fill="#5B6B73">模型 YOLOv8n 可推理</text>
+    </g>
+    <!-- risk 4 现场故障 -->
+    <g id="risk-4">
+      <rect x="918" y="446" width="262" height="184" rx="12" fill="#FFFFFF"/>
+      <circle cx="940" cy="476" r="6" fill="#2E9E5B"/>
+      <text x="954" y="481" font-size="14.5" font-weight="800" fill="#1F2A33">现场故障</text>
+      <rect x="1110" y="466" width="48" height="22" rx="11" fill="#2E9E5B" fill-opacity="0.14"/>
+      <text x="1134" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#1F7A45">影响低</text>
+      <line x1="938" y1="500" x2="1160" y2="500" stroke="#E2E8E9" stroke-width="1"/>
+      <use data-icon="tabler-outline/circle-check" x="934" y="514" width="18" height="18" fill="#2E9E5B"/>
+      <text x="958" y="528" font-size="12.5" font-weight="700" fill="#0A5A49">对策</text>
+      <text x="938" y="556" font-size="12.5" fill="#5B6B73">预录演示视频，现场</text>
+      <text x="938" y="578" font-size="12.5" fill="#5B6B73">实拍 + 录播双保险，</text>
+      <text x="938" y="600" font-size="12.5" fill="#5B6B73">确保万无一失</text>
+    </g>
+  </g>
+
+  <!-- ==================== Footer ==================== -->
+  <g id="footer">
+    <text x="60" y="690" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="690" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">17 / 18</text>
+  </g>
+</svg>

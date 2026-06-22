@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="archShadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" result="o" />
+      <feFlood flood-color="#0F172A" flood-opacity="0.05" result="c" />
+      <feComposite in="c" in2="o" operator="in" result="s" />
+      <feMerge><feMergeNode in="s" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  
+  <g id="header">
+    <path fill="#0E7C66" d="M63,38 H63 A3,3 0 0 1 66,41 V87 A3,3 0 0 1 63,90 H63 A3,3 0 0 1 60,87 V41 A3,3 0 0 1 63,38 Z" />
+    <text x="82" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2A33">系统总体架构：四层 B/S 分离</text>
+    <text x="84" y="96" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B6B73">职责单一、解耦清晰——支撑功能、便于 4 人并行，并对应概要设计的软件结构图 / 包图</text>
+  </g>
+
+  
+  <g id="layer-frontend">
+    <path fill="#0E7C66" d="M68,116 H92 A8,8 0 0 1 100,124 V216 A8,8 0 0 1 92,224 H68 A8,8 0 0 1 60,216 V124 A8,8 0 0 1 68,116 Z" />
+    <text x="80" y="176" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">01</text>
+    <path fill="#0E7C66" fill-opacity="0.05" stroke="#A9D2C8" stroke-width="1.5" stroke-dasharray="6,4" d="M118,116 H1205 A10,10 0 0 1 1215,126 V214 A10,10 0 0 1 1205,224 H118 A10,10 0 0 1 108,214 V126 A10,10 0 0 1 118,116 Z" />
+    <text x="124" y="138" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">前端层 · Vue3（PC Web + 移动 H5）渲染 / 交互 / 可视化</text>
+    <g id="l1c1"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M138,148 H377 A8,8 0 0 1 385,156 V206 A8,8 0 0 1 377,214 H138 A8,8 0 0 1 130,206 V156 A8,8 0 0 1 138,148 Z" />
+  <g transform="translate(144.0, 162.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
+    <path d="M11 4h2" />
+    <path d="M12 17v.01" />
+  </g><text x="180" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">PC Web + H5</text><text x="180" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">双端响应式界面</text></g>
+    <g id="l1c2"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M411,148 H650 A8,8 0 0 1 658,156 V206 A8,8 0 0 1 650,214 H411 A8,8 0 0 1 403,206 V156 A8,8 0 0 1 411,148 Z" />
+  <g transform="translate(417.0, 162.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+    <path d="M15 19l2 2l4 -4" />
+  </g><text x="453" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">缺陷框 Canvas</text><text x="453" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">醒目红框标注</text></g>
+    <g id="l1c3"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M684,148 H923 A8,8 0 0 1 931,156 V206 A8,8 0 0 1 923,214 H684 A8,8 0 0 1 676,206 V156 A8,8 0 0 1 684,148 Z" />
+  <g transform="translate(690.0, 162.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M10 3.2a9 9 0 1 0 10.8 10.8a1 1 0 0 0 -1 -1h-6.8a2 2 0 0 1 -2 -2v-7a.9 .9 0 0 0 -1 -.8" />
+    <path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a1 1 0 0 1 -1 -1v-4.5" />
+  </g><text x="726" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">ECharts 看板</text><text x="726" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">等级 / 缺陷统计</text></g>
+    <g id="l1c4"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M957,148 H1196 A8,8 0 0 1 1204,156 V206 A8,8 0 0 1 1196,214 H957 A8,8 0 0 1 949,206 V156 A8,8 0 0 1 957,148 Z" />
+  <g transform="translate(963.0, 162.0) scale(1.0833333333333333)" fill="none" stroke="#0E7C66" stroke-width="2">
+    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+    <path d="M7 9l5 -5l5 5" />
+    <path d="M12 4l0 12" />
+  </g><text x="999" y="176" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">上传交互</text><text x="999" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">拖拽 + 拍照</text></g>
+  </g>
+
+  
+  <g id="proto1"><path fill="#1F2A33" fill-opacity="0.06" d="M510,226 H810 A10,10 0 0 1 820,236 V236 A10,10 0 0 1 810,246 H510 A10,10 0 0 1 500,236 V236 A10,10 0 0 1 510,226 Z" /><text x="660" y="240" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#475569">↑↓ HTTP / JSON · REST /api/v1</text></g>
+
+  
+  <g id="layer-backend">
+    <path fill="#0A5A49" d="M68,250 H92 A8,8 0 0 1 100,258 V350 A8,8 0 0 1 92,358 H68 A8,8 0 0 1 60,350 V258 A8,8 0 0 1 68,250 Z" />
+    <text x="80" y="310" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">02</text>
+    <path fill="#0A5A49" fill-opacity="0.05" stroke="#9FC7BC" stroke-width="1.5" stroke-dasharray="6,4" d="M118,250 H1205 A10,10 0 0 1 1215,260 V348 A10,10 0 0 1 1205,358 H118 A10,10 0 0 1 108,348 V260 A10,10 0 0 1 118,250 Z" />
+    <text x="124" y="272" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#0A5A49" letter-spacing="1">后端 API 层 · FastAPI 鉴权 / 业务编排 / 数据库读写（不直接推理）</text>
+    <g id="l2c1"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M138,282 H377 A8,8 0 0 1 385,290 V340 A8,8 0 0 1 377,348 H138 A8,8 0 0 1 130,340 V290 A8,8 0 0 1 138,282 Z" />
+  <g transform="translate(144.0, 296.0) scale(1.0833333333333333)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0" />
+    <path d="M15 9h.01" />
+  </g><text x="180" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">鉴权 JWT</text><text x="180" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">登录 / 角色 / 会话</text></g>
+    <g id="l2c2"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M411,282 H650 A8,8 0 0 1 658,290 V340 A8,8 0 0 1 650,348 H411 A8,8 0 0 1 403,340 V290 A8,8 0 0 1 411,282 Z" />
+  <g transform="translate(417.0, 296.0) scale(1.0833333333333333)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M7 8l0 8" />
+    <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
+    <path d="M14 14l3 -3l3 3" />
+  </g><text x="453" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">业务编排</text><text x="453" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">任务调度 · 不推理</text></g>
+    <g id="l2c3"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M684,282 H923 A8,8 0 0 1 931,290 V340 A8,8 0 0 1 923,348 H684 A8,8 0 0 1 676,340 V290 A8,8 0 0 1 684,282 Z" />
+  <g transform="translate(690.0, 296.0) scale(1.0833333333333333)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+  </g><text x="726" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">文件管理</text><text x="726" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">图片 / 标注图存取</text></g>
+    <g id="l2c4"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M957,282 H1196 A8,8 0 0 1 1204,290 V340 A8,8 0 0 1 1196,348 H957 A8,8 0 0 1 949,340 V290 A8,8 0 0 1 957,282 Z" />
+  <g transform="translate(963.0, 296.0) scale(1.0833333333333333)" fill="none" stroke="#0A5A49" stroke-width="2">
+    <path d="M9 15l6 -6" />
+    <path d="M11 6l.463 -.536a5 5 0 0 1 7.072 0a4.993 4.993 0 0 1 -.001 7.072" />
+    <path d="M12.603 18.534a5.07 5.07 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+    <path d="M16 19h6" />
+    <path d="M19 16v6" />
+  </g><text x="999" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">算法调用客户端</text><text x="999" y="332" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">内部 HTTP 调 /infer</text></g>
+  </g>
+
+  
+  <g id="proto2"><path fill="#F2811D" fill-opacity="0.10" d="M510,360 H810 A10,10 0 0 1 820,370 V370 A10,10 0 0 1 810,380 H510 A10,10 0 0 1 500,370 V370 A10,10 0 0 1 510,360 Z" /><text x="660" y="374" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#C2610A">↓ 内部 HTTP · POST /infer（解耦）</text></g>
+
+  
+  <g id="layer-algo">
+    <path fill="#F2811D" d="M68,384 H92 A8,8 0 0 1 100,392 V484 A8,8 0 0 1 92,492 H68 A8,8 0 0 1 60,484 V392 A8,8 0 0 1 68,384 Z" />
+    <text x="80" y="444" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">03</text>
+    <path fill="#F2811D" fill-opacity="0.05" stroke="#F6C79B" stroke-width="1.5" stroke-dasharray="6,4" d="M118,384 H1205 A10,10 0 0 1 1215,394 V482 A10,10 0 0 1 1205,492 H118 A10,10 0 0 1 108,482 V394 A10,10 0 0 1 118,384 Z" />
+    <text x="124" y="406" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#C2610A" letter-spacing="1">算法服务层 · 独立进程加载模型，提供 /infer，可单独部署 / 替换</text>
+    <g id="l3c1"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M138,416 H377 A8,8 0 0 1 385,424 V474 A8,8 0 0 1 377,482 H138 A8,8 0 0 1 130,474 V424 A8,8 0 0 1 138,416 Z" />
+  <g transform="translate(144.0, 430.0) scale(1.0833333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g><text x="180" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">/infer 接口</text><text x="180" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">图入 · 结构化结果出</text></g>
+    <g id="l3c2"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M411,416 H650 A8,8 0 0 1 658,424 V474 A8,8 0 0 1 650,482 H411 A8,8 0 0 1 403,474 V424 A8,8 0 0 1 411,416 Z" />
+  <g transform="translate(417.0, 430.0) scale(1.0833333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M12 20l-3 1v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v1.5" />
+    <path d="M17.001 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M19.001 15.5v1.5" />
+    <path d="M19.001 21v1.5" />
+    <path d="M22.032 17.25l-1.299 .75" />
+    <path d="M17.27 20l-1.3 .75" />
+    <path d="M15.97 17.25l1.3 .75" />
+    <path d="M20.733 20l1.3 .75" />
+  </g><text x="453" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">OpenCV 管线</text><text x="453" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">预处理 + 果实分割</text></g>
+    <g id="l3c3"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M684,416 H923 A8,8 0 0 1 931,424 V474 A8,8 0 0 1 923,482 H684 A8,8 0 0 1 676,474 V424 A8,8 0 0 1 684,416 Z" />
+  <g transform="translate(690.0, 430.0) scale(1.0833333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M4 7v-1a2 2 0 0 1 2 -2h2" />
+    <path d="M4 17v1a2 2 0 0 0 2 2h2" />
+    <path d="M16 4h2a2 2 0 0 1 2 2v1" />
+    <path d="M16 20h2a2 2 0 0 0 2 -2v-1" />
+    <path d="M5 12l14 0" />
+  </g><text x="726" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">YOLOv8 检测</text><text x="726" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">缺陷框+类别+置信度</text></g>
+    <g id="l3c4"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M957,416 H1196 A8,8 0 0 1 1204,424 V474 A8,8 0 0 1 1196,482 H957 A8,8 0 0 1 949,474 V424 A8,8 0 0 1 957,416 Z" />
+  <g transform="translate(963.0, 430.0) scale(1.0833333333333333)" fill="none" stroke="#F2811D" stroke-width="2">
+    <path d="M5 4h14a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-7a1 1 0 0 0 -1 1v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1" />
+    <path d="M4 8l2 0" />
+    <path d="M4 12l3 0" />
+    <path d="M4 16l2 0" />
+    <path d="M8 4l0 2" />
+    <path d="M12 4l0 3" />
+    <path d="M16 4l0 2" />
+  </g><text x="999" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">规则分级引擎</text><text x="999" y="466" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">果径/着色率/占比</text></g>
+  </g>
+
+  
+  <g id="proto3"><path fill="#1F2A33" fill-opacity="0.06" d="M510,494 H810 A10,10 0 0 1 820,504 V504 A10,10 0 0 1 810,514 H510 A10,10 0 0 1 500,504 V504 A10,10 0 0 1 510,494 Z" /><text x="660" y="508" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" font-weight="700" fill="#475569">↕ SQLAlchemy ORM · 文件 I/O</text></g>
+
+  
+  <g id="layer-data">
+    <path fill="#5B6B73" d="M68,518 H92 A8,8 0 0 1 100,526 V606 A8,8 0 0 1 92,614 H68 A8,8 0 0 1 60,606 V526 A8,8 0 0 1 68,518 Z" />
+    <text x="80" y="572" text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">04</text>
+    <path fill="#5B6B73" fill-opacity="0.05" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="6,4" d="M118,518 H1205 A10,10 0 0 1 1215,528 V604 A10,10 0 0 1 1205,614 H118 A10,10 0 0 1 108,604 V528 A10,10 0 0 1 118,518 Z" />
+    <text x="124" y="540" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" font-weight="700" fill="#475569" letter-spacing="1">数据层 · MySQL 业务数据 + 本地文件 + 模型权重</text>
+    <g id="l4c1"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M138,550 H467 A8,8 0 0 1 475,558 V596 A8,8 0 0 1 467,604 H138 A8,8 0 0 1 130,596 V558 A8,8 0 0 1 138,550 Z" />
+  <g transform="translate(146.0, 564.0) scale(1.0833333333333333)" fill="none" stroke="#5B6B73" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g><text x="182" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">MySQL 业务库</text><text x="182" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">10 张核心表</text></g>
+    <g id="l4c2"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M503,550 H832 A8,8 0 0 1 840,558 V596 A8,8 0 0 1 832,604 H503 A8,8 0 0 1 495,596 V558 A8,8 0 0 1 503,550 Z" />
+  <g transform="translate(511.0, 564.0) scale(1.0833333333333333)" fill="none" stroke="#5B6B73" stroke-width="2">
+    <path d="M15 8h.01" />
+    <path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12" />
+    <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5" />
+    <path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3" />
+  </g><text x="547" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">文件存储 uploads</text><text x="547" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">原图 + 标注图</text></g>
+    <g id="l4c3"><path fill="#FFFFFF" stroke="#E2E8E9" filter="url(#archShadow)" d="M868,550 H1196 A8,8 0 0 1 1204,558 V596 A8,8 0 0 1 1196,604 H868 A8,8 0 0 1 860,596 V558 A8,8 0 0 1 868,550 Z" />
+  <g transform="translate(876.0, 564.0) scale(1.0833333333333333)" fill="none" stroke="#5B6B73" stroke-width="2">
+    <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+    <path d="M12 12l8 -4.5" />
+    <path d="M12 12l0 9" />
+    <path d="M12 12l-8 -4.5" />
+  </g><text x="912" y="573" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2A33">模型权重 weights</text><text x="912" y="593" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#5B6B73">best.pt 等</text></g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="694" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">CitrusVision · 软件工程课程设计项目方案汇报</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#94A3B8">11 / 18</text>
+  </g>
+</svg>
