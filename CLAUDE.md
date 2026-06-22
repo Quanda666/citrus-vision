@@ -14,4 +14,4 @@
 
 ### Domain docs
 
-单一上下文布局：仓库根目录有 `CONTEXT.md` 和 `docs/adr/`。详见 `docs/agents/domain.md`。
+单一上下文布局：仓库根目录有 `CONTEXT.md` 和 `docs/adr/`（四篇：001 双引擎算法、002 四层架构、003 FastAPI 选型、004 LLM 智能解释）。详见 `docs/agents/domain.md`。

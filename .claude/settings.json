@@ -4,7 +4,21 @@
       "Bash(python -c ' *)",
       "Bash(/c/Python313/python -c \"import docx; print\\('python-docx OK'\\)\")",
       "Bash(/c/Python313/python -c \"import openpyxl; print\\('openpyxl OK'\\)\")",
-      "Bash(/c/Python313/python)"
+      "Bash(/c/Python313/python)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'docs: 完成六类课设文档与三篇ADR *)",
+      "Bash(git commit -m 'fix: 修正 schema.sql 建表顺序，将 model_info 移到 detection_task 之前 *)",
+      "Bash(git commit -m 'refactor: 明确算法服务降级策略 *)",
+      "Bash(git commit -m 'refactor: 细化性能需求，区分冷启动与后续检测 *)",
+      "Bash(git commit -m 'docs: 增加数据库设计的已知限制与优化建议 *)",
+      "Bash(git push *)",
+      "Bash(git commit -m 'docs: 明确 JWT Token 过期处理策略 *)",
+      "Bash(xargs -0 grep -h \"^graph\\\\|^flowchart\\\\|^sequenceDiagram\\\\|^classDiagram\\\\|^stateDiagram\\\\|^erDiagram\")",
+      "Bash(git commit -m 'feat: 补充文件上传安全设计 *)",
+      "Bash(git commit -m 'feat: 补充并发处理设计 *)",
+      "Bash(git commit -m 'feat: 补充数据准备方案（关键路径风险） *)",
+      "Bash(git commit -m 'feat: 补充部署配置完整模板 *)",
+      "Bash(git commit -m 'feat: 引入多模态大模型增强缺陷智能解释 *)"
     ]
   }
 }
